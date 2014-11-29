@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="572bbffe-0649-46c4-b21a-568ee153a479" name="ShenJian281@SHENJIAN281-PC 2014-03-22 20:22:25" runUser="ShenJian281-PC\ShenJian281" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="77859324-7827-4231-9957-8f778a946fc8">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="ShenJian281_SHENJIAN281-PC 2014-03-22 20_22_25">
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\libs\SgmlReaderDll.dll" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\KVP_Config\bin\Debug\KVP_Config.dll" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\bin\Debug\RSS2KINDLE.exe" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\libs\QDFeedParser.dll" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\libs\HtmlAgilityPack.dll" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\libs\NReadability.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-03-22T20:22:25.6910569+08:00" queuing="2014-03-22T20:22:25.7040577+08:00" start="2014-03-22T20:22:25.7110581+08:00" finish="2014-03-22T20:22:32.8594669+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetSinaArticle" storage="c:\shenjian\rss2kindle\testproject1\bin\debug\testproject1.dll" id="9eb92ca5-b273-3255-0b8c-58212a96260d">
+      <Execution id="9c3d863b-cc63-4755-b745-f8ef44e9069d" />
+      <TestMethod codeBase="C:/Shenjian/RSS2KINDLE/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UtilityTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSinaArticle" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9eb92ca5-b273-3255-0b8c-58212a96260d" executionId="9c3d863b-cc63-4755-b745-f8ef44e9069d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9c3d863b-cc63-4755-b745-f8ef44e9069d" testId="9eb92ca5-b273-3255-0b8c-58212a96260d" testName="GetSinaArticle" computerName="SHENJIAN281-PC" duration="00:00:06.9217583" startTime="2014-03-22T20:22:25.7130582+08:00" endTime="2014-03-22T20:22:32.8434660+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c3d863b-cc63-4755-b745-f8ef44e9069d">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 TestProject1.UtilityTest.GetSinaArticle 引发了异常: 
+System.NotImplementedException: 未实现该方法或操作。</Message>
+          <StackTrace>    在 RSS2KINDLE.SinaBlogGetor.GetArticle(Uri uri) 位置 C:\Shenjian\RSS2KINDLE\SinaBlogGetor.cs:行号 24
+   在 TestProject1.UtilityTest.GetSinaArticle() 位置 C:\Shenjian\RSS2KINDLE\TestProject1\UtilityTest.cs:行号 90
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

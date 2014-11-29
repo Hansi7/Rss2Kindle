@@ -1,0 +1,111 @@
+
+*************************************************************
+ Amazon kindlegen(Windows) V2.9 build 0731-890adc2 
+ 命令行电子书制作软件 
+ Copyright Amazon.com and its Affiliates 2013 
+*************************************************************
+
+信息(prcgen):I1047: 已添加的元数据dc:Title        "03/22 20:59 Created By RssToKindle"
+信息(prcgen):I1047: 已添加的元数据dc:Date         "2014/3/22"
+信息(prcgen):I1002: 解析文件  0000011
+错误(htmlparser):E19001: 在内容文件中没有发现 BODY 标记。
+警告(inputpreprocessor):W29006: 不使用的标签为: <div id="articlebody" favmd5="{&quot;4701280b0102eohi&quot;:&quot;ee64c6376a38966a427ecb9fd4d77cd0&quot;}">
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000002
+警告(inputpreprocessor):W29006: 不使用的标签为: <div>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000004
+警告(inputpreprocessor):W29006: 不使用的标签为: <span>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000005
+警告(inputpreprocessor):W29006: 不使用的标签为: <a href="http://news.sina.com.cn/437/2008/0703/24.html" target="_blank">
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000005
+警告(inputpreprocessor):W29006: 不使用的标签为: <img width="16" height="18" align="absmiddle" title="此博文通过手机撰写(手机访问sina.cn)" src="C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_\1.jpg">
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000005
+警告(inputpreprocessor):W29006: 不使用的标签为: </a>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000007
+警告(inputpreprocessor):W29006: 不使用的标签为: </span>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000007
+警告(inputpreprocessor):W29006: 不使用的标签为: <h2 id="t_4701280b0102eohi">
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000008
+警告(inputpreprocessor):W29006: 不使用的标签为: </h2>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000009
+警告(inputpreprocessor):W29006: 不使用的标签为: <span>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000009
+警告(inputpreprocessor):W29006: 不使用的标签为: </span>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000009
+警告(inputpreprocessor):W29006: 不使用的标签为: <div>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000009
+警告(inputpreprocessor):W29006: 不使用的标签为: <a href="javascript:;" action-type="reblog" action-data="{srcBlog:1, blogId:'4701280b0102eohi'}">
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000009
+警告(inputpreprocessor):W29006: 不使用的标签为: <cite>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000009
+警告(inputpreprocessor):W29006: 不使用的标签为: <img src="C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_\2.jpg" width="15" height="15" align="absmiddle">
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000009
+警告(inputpreprocessor):W29006: 不使用的标签为: <em>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000009
+警告(inputpreprocessor):W29006: 不使用的标签为: </em>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000009
+警告(inputpreprocessor):W29006: 不使用的标签为: </cite>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000009
+警告(inputpreprocessor):W29006: 不使用的标签为: </a>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000009
+警告(inputpreprocessor):W29006: 不使用的标签为: </div>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000010
+警告(inputpreprocessor):W29006: 不使用的标签为: </div>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000011
+警告(inputpreprocessor):W29006: 不使用的标签为: <div id="sina_keyword_ad_area">
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000012
+警告(inputpreprocessor):W29006: 不使用的标签为: <table>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000013
+警告(inputpreprocessor):W29006: 不使用的标签为: <tr>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000014
+警告(inputpreprocessor):W29006: 不使用的标签为: <td>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000015
+警告(inputpreprocessor):W29006: 不使用的标签为: <span>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000016
+警告(inputpreprocessor):W29006: 不使用的标签为: </span>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000016
+警告(inputpreprocessor):W29006: 不使用的标签为: <h3>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000016
+警告(inputpreprocessor):W29006: 不使用的标签为: <a href="http://search.sina.com.cn/?c=blog&q=%CA%D6%BB%FA%B2%A9%BF%CD&by=tag" target="_blank">
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000016
+警告(inputpreprocessor):W29006: 不使用的标签为: </a>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000017
+警告(inputpreprocessor):W29006: 不使用的标签为: </h3>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000017
+警告(inputpreprocessor):W29006: 不使用的标签为: <h3>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000017
+警告(inputpreprocessor):W29006: 不使用的标签为: <a href="http://search.sina.com.cn/?c=blog&q=%D4%D3%CC%B8&by=tag" target="_blank">
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000017
+警告(inputpreprocessor):W29006: 不使用的标签为: </a>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000018
+警告(inputpreprocessor):W29006: 不使用的标签为: </h3>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000019
+警告(inputpreprocessor):W29006: 不使用的标签为: </td>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000020
+警告(inputpreprocessor):W29006: 不使用的标签为: <td>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000021
+警告(inputpreprocessor):W29006: 不使用的标签为: </td>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000022
+警告(inputpreprocessor):W29006: 不使用的标签为: </tr>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000023
+警告(inputpreprocessor):W29006: 不使用的标签为: </table>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000024
+警告(inputpreprocessor):W29006: 不使用的标签为: </div>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000026
+警告(inputpreprocessor):W29006: 不使用的标签为: <div id="sina_keyword_ad_area2">
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000026
+警告(inputpreprocessor):W29006: 不使用的标签为: <ins>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000026
+警告(inputpreprocessor):W29006: 不使用的标签为: <a href="http://blog.sina.com.cn/s/blog_4701280b0102eohi.html">
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000026
+警告(inputpreprocessor):W29006: 不使用的标签为: </a>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000026
+警告(inputpreprocessor):W29006: 不使用的标签为: </ins>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000028
+警告(inputpreprocessor):W29006: 不使用的标签为: </div>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000030
+警告(inputpreprocessor):W29006: 不使用的标签为: <div>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000031
+警告(inputpreprocessor):W29006: 不使用的标签为: <div>
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000032
+警告(inputpreprocessor):W29006: 不使用的标签为: <a href="javascript:;">
+      文件中： C:\Shenjian\RSS2KINDLE\bin\Debug\OutPut20140322205923\_.html     行： 0000032

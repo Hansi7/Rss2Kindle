@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>QDFeedParser</name>
+    </assembly>
+    <members>
+        <member name="T:QDFeedParser.AsyncFeedRequestState">
+            <summary>
+            A small class used for tracking state across asynchronous web requests.
+            </summary>
+        </member>
+        <member name="T:QDFeedParser.IFeed">
+            <summary>
+            The interface used to represent all of the common elements between different types of syndicaiton feeds.
+            The most common use case for this library doesn't require more than what's contained in this interface, although
+            subsequent child implementations do have additional members which only pertain to the specifications of particular
+            syndication feed standards.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeed.Title">
+            <summary>
+            The title of the syndication feed.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeed.Link">
+            <summary>
+            A link to the general web resource hosting the syndication feed.
+            I.e. the feed URI might be http://www.aaronstannard.com/syndication.axd but the link is to just http://www.aaronstannard.com/, the blog hosting the syndicated content.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeed.FeedUri">
+            <summary>
+            A Uri referring to the feed itself.
+            </summary>-
+        </member>
+        <member name="P:QDFeedParser.IFeed.LastUpdated">
+            <summary>
+            The UTC date and time this syndication feed was last updated.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeed.Generator">
+            <summary>
+            The generator of this feed.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeed.FeedType">
+            <summary>
+            The type of syndication feed.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeed.Items">
+            <summary>
+            Returns a list of all of the items in the feed.
+            </summary>
+            <value>An list of IFeedItems.</value>
+        </member>
+        <member name="M:QDFeedParser.Atom10Feed.#ctor">
+            <summary>
+            Default constructor for Atom10Feed
+            </summary>
+        </member>
+        <member name="M:QDFeedParser.Atom10Feed.#ctor(System.String)">
+            <summary>
+            Constuctor for Atom10Feed object
+            </summary>
+            <param name="feeduri">The Uri used to identify the feed</param>
+        </member>
+        <member name="T:QDFeedParser.IFeedItem">
+            <summary>
+            Interface used to represent the common elements between all entries in ATOM / RSS syndication feeds.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeedItem.Title">
+            <summary>
+            The title of the synidcation feed entry.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeedItem.Author">
+            <summary>
+            The author of the syndication feed entry.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeedItem.Id">
+            <summary>
+            The unique ID of this syndication feed entry. Depending upon how the service uses it, it can be a URI, a
+            Guid, and lord knows else what. Read the RSS specification if you don't believe me :p
+            <link>http://cyber.law.harvard.edu/rss/rss.html#ltguidgtSubelementOfLtitemgt</link>
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeedItem.Link">
+            <summary>
+            A Uri which points to the syndication item.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeedItem.DatePublished">
+            <summary>
+            The UTC date and time when the syndication feed entry was published.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeedItem.Content">
+            <summary>
+            The text content of the syndication feed.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.IFeedItem.Categories">
+            <summary>
+            A string of categories used to classify the syndication feed entry.
+            </summary>
+        </member>
+        <member name="T:QDFeedParser.IFeedFactory">
+            <summary>
+            An interface which defines the factories used for creating SyndicationFeed objects.
+            The primary responsibility of this class is to download / load the XML into a string and enable the caller
+            to run some minor tests against it before it comes time to parse it.
+            </summary>
+        </member>
+        <member name="M:QDFeedParser.IFeedFactory.PingFeed(System.Uri)">
+            <summary>
+            Pings the feed to verify that it actually exists.
+            </summary>
+            <param name="feeduri">The Uri of the feed to ping.</param>
+            <returns>True if the feed was successfully pinged, false otherwise.</returns>
+        </member>
+        <member name="M:QDFeedParser.IFeedFactory.CreateFeed(System.Uri)">
+            <summary>
+            Creates a new ISyndicationFeed class parsed from the provided Uri.
+            </summary>
+            <param name="feeduri">The Uri of the feed to be parsed.</param>
+            <returns>A new ISynidcationFeed object. The exact type returned depends on the type of feed detected.</returns>
+        </member>
+        <member name="M:QDFeedParser.IFeedFactory.CreateFeed(System.Uri,QDFeedParser.FeedType)">
+            <summary>
+            Creates a new ISyndicationFeed class of a specific type from the provided Uri. Method will throw an error
+            if the type specified and the type actually detected in the document don't match.
+            </summary>
+            <param name="feeduri">The Uri of the syndication feed to parse.</param>
+            <param name="feedtype">The type of syndication feed.</param>
+            <returns>A new ISyndicationFeed object of type [feedtype].</returns>
+        </member>
+        <member name="M:QDFeedParser.IFeedFactory.CreateFeed(System.Uri,QDFeedParser.FeedType,System.String)">
+            <summary>
+            Creates a new ISyndicationFeed class of a specified type from the provided xml string. 
+            The URI is used as a unique identifier for the feed.
+            </summary>
+            <param name="feeduri">The Uri of the syndication feed to parse.</param>
+            <param name="feedtype">The type of feed.</param>
+            <param name="feedxml">The xml content of the feed.</param>
+            <returns>A new ISyndicationFeed object of [feedtype].</returns>
+        </member>
+        <member name="M:QDFeedParser.IFeedFactory.BeginCreateFeed(System.Uri,System.AsyncCallback)">
+            <summary>
+            Asynchronous operation to begin creating a new feed from a source Uri.
+            </summary>
+            <param name="feeduri">The Uri of the feed to be parsed.</param>
+            <param name="callback">A callback function</param>
+            <returns>A new ISynidcationFeed object. The exact type returned depends on the type of feed detected.</returns>
+        </member>
+        <member name="M:QDFeedParser.IFeedFactory.EndCreateFeed(System.IAsyncResult)">
+            <summary>
+            Creates a new ISyndicationFeed class as the result of the end of an asynchronous operation.
+            The original URI is used as the unique identifier for the feed.
+            </summary>
+            <param name="asyncResult">The results of the original asynchronous method call.</param>
+            <returns>A new ISyndicationFeed object</returns>
+        </member>
+        <member name="M:QDFeedParser.IFeedFactory.DownloadXml(System.Uri)">
+            <summary>
+            Downloads the XML content of the feed and returns it as a string.
+            </summary>
+            <param name="feeduri">The Uri of the feed to parse.</param>
+            <returns>A string containing the XML document in its entirety.</returns>
+        </member>
+        <member name="M:QDFeedParser.IFeedFactory.BeginDownloadXml(System.Uri,System.AsyncCallback)">
+            <summary>
+            Begins an asychronous request to the XML content of the feed and returns it as a string.
+            </summary>
+            <param name="feeduri">The Uri of the feed to parse.</param>
+            <param name="callback">A callback function.</param>
+            <returns>A string containing the XML document in its entirety.</returns>
+        </member>
+        <member name="M:QDFeedParser.IFeedFactory.EndDownloadXml(System.IAsyncResult)">
+            <summary>
+            Returns the XML content from the end of an asynchronous request.
+            </summary>
+            <param name="asyncResult">The asynchronous result passed in via a callback</param>
+            <returns>The feed's XML at the specified Uri</returns>
+        </member>
+        <member name="M:QDFeedParser.IFeedFactory.CheckFeedType(System.Uri)">
+            <summary>
+            Quickly parses the top-most XML to determine what type of syndication feed the feed hosted
+            at [feeduri] is.
+            </summary>
+            <param name="feeduri">The Uri of the feed to parse.</param>
+            <returns>The type of feed located at [feeduri].</returns>
+        </member>
+        <member name="M:QDFeedParser.IFeedFactory.CheckFeedType(System.String)">
+            <summary>
+            Quickly parses the top-most XML to determine what type of syndication feed [feedxml] is.
+            </summary>
+            <param name="feedxml">The Xml content of the feed to parse.</param>
+            <returns>The type of feed contained in [feedxml].</returns>
+        </member>
+        <member name="T:QDFeedParser.FeedType">
+            <summary>
+            An enumerated type used to indicate which type of syndication feed an object
+            or element is parsed from. It's more or less meant to save libary users the trouble
+            of type-checking resultant objects.
+            </summary>
+        </member>
+        <member name="M:QDFeedParser.FileSystemFeedFactory.DownloadXmlFromUri(System.Uri)">
+            <summary>
+            Requires a valid uri on local disk - otherwise the method will promptly fail.
+            </summary>
+            <param name="feeduri">A valid uri on local disk</param>
+            <returns>The xml content of the uri</returns>
+        </member>
+        <member name="M:QDFeedParser.HttpFeedFactory.SetUseUnsafeHeaderParsing(System.Boolean)">
+            <summary>
+            Private, static method used for modifying the HttpWebRequest configuration at run-time using reflection.
+            This allows parsing of "unsafe" (aka "not RFC compliant") headers in order to suppress errors for valid feeds.
+            It only needs to be called once, and this is done by the static constructor on this very class.
+            </summary>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="T:QDFeedParser.MissingFeedException">
+            <summary>
+            Exception thrown when the feed cannot be found and thus cannot be parsed by a FeedFactory.
+            </summary>
+        </member>
+        <member name="T:QDFeedParser.InvalidFeedXmlException">
+            <summary>
+            Exception thrown when an ISyndicationFeed object is unable to parse a child node or a header from an existing document.
+            </summary>
+        </member>
+        <member name="M:QDFeedParser.Rss20Feed.#ctor">
+            <summary>
+            Default constructor for Rss20Feed objects
+            </summary>
+        </member>
+        <member name="M:QDFeedParser.Rss20Feed.#ctor(System.String)">
+            <summary>
+            Constructor for Rss20Feed objects
+            </summary>
+            <param name="feeduri">The Uri which uniquely identifies the feed</param>
+        </member>
+        <member name="P:QDFeedParser.Rss20Feed.Description">
+            <summary>
+            The description of this RSS feed.
+            </summary>
+        </member>
+        <member name="P:QDFeedParser.Rss20Feed.Language">
+            <summary>
+            The language this RSS feed is encoded in.
+            </summary>
+        </member>
+        <member name="M:QDFeedParser.Xml.IFeedXmlParser.ParseFeed(QDFeedParser.IFeed,System.String)">
+            <summary>
+            Parse the XML contents of a feed and populate its fields
+            </summary>
+            <param name="feed">An initialized IFeed object</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,6 @@
+C:\Shenjian\RSS2KINDLE\PicturesToMobi\bin\Debug\PicturesToMobi.exe
+C:\Shenjian\RSS2KINDLE\PicturesToMobi\bin\Debug\PicturesToMobi.pdb
+C:\Shenjian\RSS2KINDLE\PicturesToMobi\obj\x86\Debug\PicturesToMobi.exe
+C:\Shenjian\RSS2KINDLE\PicturesToMobi\obj\x86\Debug\PicturesToMobi.pdb
+C:\Shenjian\RSS2KINDLE\PicturesToMobi\bin\Debug\Omu.Drawing.dll
+C:\Shenjian\RSS2KINDLE\PicturesToMobi\obj\x86\Debug\PicturesToMobi.csprojResolveAssemblyReference.cache

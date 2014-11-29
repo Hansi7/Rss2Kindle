@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="160eae6e-aca9-4f58-83f9-4798fb60fd64" name="ShenJian281@SHENJIAN281-PC 2014-03-22 19:58:15" runUser="ShenJian281-PC\ShenJian281" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="77859324-7827-4231-9957-8f778a946fc8">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment userDeploymentRoot="C:\Shenjian\RSS2KINDLE\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="ShenJian281_SHENJIAN281-PC 2014-03-22 19_58_15">
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\libs\SgmlReaderDll.dll" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\KVP_Config\bin\Debug\KVP_Config.dll" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\bin\Debug\RSS2KINDLE.exe" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\libs\QDFeedParser.dll" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\libs\HtmlAgilityPack.dll" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\libs\NReadability.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-03-22T19:58:15.7651259+08:00" queuing="2014-03-22T19:58:15.7891273+08:00" start="2014-03-22T19:58:15.7971277+08:00" finish="2014-03-22T19:58:16.8151859+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetHtml2Test" storage="c:\shenjian\rss2kindle\testproject1\bin\debug\testproject1.dll" id="ce5f032c-bbb5-fd39-262e-42bfd78e4e9e">
+      <Execution id="7a976b5c-fe29-4e98-b220-29866f6bbb1f" />
+      <TestMethod codeBase="C:/Shenjian/RSS2KINDLE/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UtilityTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetHtml2Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ce5f032c-bbb5-fd39-262e-42bfd78e4e9e" executionId="7a976b5c-fe29-4e98-b220-29866f6bbb1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7a976b5c-fe29-4e98-b220-29866f6bbb1f" testId="ce5f032c-bbb5-fd39-262e-42bfd78e4e9e" testName="GetHtml2Test" computerName="SHENJIAN281-PC" duration="00:00:00.7529574" startTime="2014-03-22T19:58:15.7991278+08:00" endTime="2014-03-22T19:58:16.7961849+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a976b5c-fe29-4e98-b220-29866f6bbb1f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;&gt;，实际为: &lt;&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;銆婅鐢靛奖鐨勪竷涓厓绱犮€嬧€斺€斿叧浜庢垜瀵圭數褰辩殑涓€浜涚湅娉曚互鍙娿€婂悗浼氭棤鏈熴€嬬殑涓€浜涙秷鎭痏闊╁瘨_鏂版氮鍗氬&lt;/title&gt;
+&lt;meta name="keywords" content="銆婅鐢靛奖鐨勪竷涓厓绱犮€嬧€斺€斿叧浜庢垜瀵圭數褰辩殑涓€浜涚湅娉曚互鍙娿€婂悗浼氭棤鏈熴€嬬殑涓€浜涙秷鎭痏闊╁瘨_鏂版氮鍗氬,闊╁瘨," /&gt;
+&lt;meta name="description" content="銆婅鐢靛奖鐨勪竷涓厓绱犮€嬧€斺€斿叧浜庢垜瀵圭數褰辩殑涓€浜涚湅娉曚互鍙娿€婂悗浼氭棤鏈熴€嬬殑涓€浜涙秷鎭痏闊╁瘨_鏂版氮鍗氬,闊╁瘨," /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /&gt;
+&lt;!鈥揫if lte IE 6]&gt;
+&lt;script type="text/javascript"&gt;
+try{
+document.execCommand("BackgroundImageCache", false, true);
+}catch(e){}
+&lt;/script&gt;
+&lt;![endif]鈥?
+&lt;script type="text/javascript"&gt;
+window.staticTime=new Date().getTime();
+&lt;/script&gt;
+&lt;link rel="pingback" href="http://upload.move.blog.sina.com.cn/blog_rebuild/blog/xmlrpc.php" /&gt;
+&lt;link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://upload.move.blog.sina.com.cn/blog_rebuild/blog/xmlrpc.php?rsd" /&gt;
+&lt;link href="http://blog.sina.com.cn/blog_rebuild/blog/wlwmanifest.xml" type="application/wlwmanifest+xml" rel="wlwmanifest" /&gt;
+&lt;link rel="alternate" type="application/rss+xml" href="http://blog.sina.com.cn/rss/1191258123.xml" title="RSS" /&gt;
+&lt;link href="http://simg.sinajs.cn/blog7style/css/conf/blog/article.css" type="text/css" rel="stylesheet" /&gt;&lt;link href="http://simg.sinajs.cn/blog7style/css/common/common.css" type="text/css" rel="stylesheet" /&gt;&lt;link href="http://simg.sinajs.cn/blog7style/css/blog/blog.css" type="text/css" rel="stylesheet" /&gt;&lt;link href="http://simg.sinajs.cn/blog7style/css/module/common/blog.css" type="text/css" rel="stylesheet" /&gt;&lt;style id="tplstyle" type="text/css"&gt;@charset "utf-8";@import url("http://simg.sinajs.cn/blog7newtpl/css/32/32_1/t.css");
+&lt;/style&gt;
+&lt;style id="positionstyle"  type="text/css"&gt;
+.sinabloghead .blogtoparea{ left:83px;top:172px;}
+.sinabloghead .blognav{ left:82px;top:231px;}
+&lt;/style&gt;
+&lt;style id="bgcolor"  type="text/css"&gt;
+body{background-color: rgb(160, 160, 160);}
+&lt;/style&gt;
+&lt;style id="bgtyle"  type="text/css"&gt;
+body{background-image:none;}.sinabloga{ background-image:none; }
+.sinablogb{ background-image: url(http://s4.sinaimg.cn/orignal/4701280bxc88636eb3de3); }
+.sinablogb{ background-repeat:no-repeat; background-position:center top;}
+&lt;/style&gt;
+&lt;style id="heightstyle"  type="text/css"&gt;
+.sinabloghead{ height: 310px; }
+&lt;/style&gt;
+&lt;style id="headtyle"  type="text/css"&gt;
+.sinabloghead{ background-image: url(http://s12.sinaimg.cn/orignal/4701280bxc8863752010b);}
+.sinabloghead{ background-repeat:no-repeat; background-position:center top;}
+&lt;/style&gt;
+&lt;style id="navtyle"  type="text/css"&gt;
+&lt;/style&gt;
+&lt;style&gt;.MASSf21674ffeef7{display:none;}&lt;/style&gt;&lt;script type="text/javascript" src="http://d1.sina.com.cn/litong/zhitou/sspnew.js"&gt;&lt;/script&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;!--$sinatopbar--&gt;
+&lt;div style="z-index:512;" class="nsinatopbar"&gt;
+  &lt;div style="position:absolute;left:0;top:0;" id="trayFlashConnetion"&gt;&lt;/div&gt;
+  &lt;div class="ntopbar_main"&gt; 
+    &lt;a id="login_bar_logo_link_350" href="http://blog.sina.com.cn" target="_blank"&gt;&lt;img class="ntopbar_logo" src="http://simg.sinajs.cn/blog7style/images/common/topbar/topbar_logo.gif" width="100" alt="鏂版氮鍗氬"&gt;&lt;/a&gt;
+    &lt;div class="ntopbar_floatL"&gt;
+      &lt;div class="ntopbar_search" id="traySearchBar"&gt;&lt;/div&gt;
+	  &lt;div class="ntopbar_ad" id="loginBarActivity" style="display:none;"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="ntopbar_loading"&gt;&lt;img src="http://simg.sinajs.cn/blog7style/images/common/loading.gif"&gt;鍔犺浇涓€?/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--$end sinatopbar--&gt;
+
+&lt;div class="sinabloga" id="sinabloga"&gt;
+	&lt;div id="sinablogb" class="sinablogb"&gt;
+
+	   
+ &lt;div id="sinablogHead" class="sinabloghead"&gt;
+     &lt;div style="display: none;" id="headflash" class="headflash"&gt;&lt;/div&gt;
+	   &lt;div id="headarea" class="headarea"&gt;
+      &lt;div id="blogTitle" class="blogtoparea"&gt;
+      &lt;h1 id="blogname" class="blogtitle"&gt;&lt;a href="http://blog.sina.com.cn/twocold"&gt;&lt;span id="blognamespan"&gt;闊╁瘨&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;
+	  	  &lt;div class="bloglink"&gt;&lt;a href="http://blog.sina.com.cn/v/verify" target="_blank"&gt;&lt;img src="http://simg.sinajs.cn/blog7style/images/common/v_blog_y.jpg"  width="80" height="20" title="鏂版氮涓汉璁よ瘉" align="absmiddle" /&gt;&lt;/a&gt;浣滃,璧涜溅鎵嬮煩瀵?/div&gt;
+	  		
+					&lt;div id="bloglink" class="bloglink"&gt;&lt;a href="http://blog.sina.com.cn/twocold"&gt;http://blog.sina.com.cn/twocold&lt;/a&gt;  &lt;a onclick="return false;" class="CP_a_fuc" href="#" id="SubscribeNewRss"&gt;[&lt;cite&gt;璁㈤槄&lt;/cite&gt;]&lt;/a&gt;&lt;a class="CP_a_fuc" href="javascript:void(scope.pa_add.add('1191258123'));"&gt;[&lt;cite&gt;鎵嬫満璁㈤槄&lt;/cite&gt;]&lt;/a&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="blognav" id="blognav"&gt;
+      			  &lt;div id="blognavBg" class="blognavBg"&gt;&lt;/div&gt; &lt;div class="blognavInfo"&gt; 
+		&lt;span&gt;&lt;a   href="http://blog.sina.com.cn/twocold"&gt;棣栭〉&lt;/a&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;a class="on" href="http://blog.sina.com.cn/s/articlelist_1191258123_0_1.html"&gt;鍗氭枃鐩綍&lt;/a&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;a href="http://photo.blog.sina.com.cn/twocold"&gt;鍥剧墖&lt;/a&gt;&lt;/span&gt;
+      &lt;span class="last"&gt;&lt;a  href="http://blog.sina.com.cn/s/profile_1191258123.html"&gt;鍏充簬鎴?/a&gt;&lt;/span&gt;&lt;/div&gt;
+      &lt;/div&gt;      		      		 	
+      
+             &lt;div class="autoskin" id="auto_skin"&gt;
+       &lt;/div&gt;
+
+&lt;div class="adsarea"&gt;
+     &lt;a href="#"&gt;&lt;div id="template_clone_pic" class="pic"&gt;&lt;/div&gt;&lt;/a&gt;
+     &lt;div id="template_clone_link" class="link wdc_HInf"&gt;&lt;/div&gt;
+     &lt;div id="template_clone_other" class="other"&gt;&lt;/div&gt;        
+&lt;/div&gt;
+    &lt;/div&gt;
+    	    	    &lt;/div&gt;
+    
+    &lt;!--涓婚鍐呭寮€濮?--&gt;
+    &lt;div class="sinablogbody" id="sinablogbody"&gt;
+	    &lt;div id="blogads" style="display: none;" class="blogads" uid="1191258123" formatInfo="1"&gt;&lt;div class="ad_head"&gt;&lt;/div&gt;&lt;div class="ad_body"&gt;&lt;div id="adversite_top" class="adsle"&gt;
+	&lt;/div&gt;&lt;div class="adsrig"&gt;鏂版氮骞垮憡鍏变韩璁″垝&gt;&lt;/div&gt;&lt;div class="clearit"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="ad_foot"&gt;&lt;/div&gt;&lt;/div&gt;
+		
+	&lt;!--绗竴鍒梥tart--&gt;
+    &lt;div id="column_1" class="SG_colW21 SG_colFirst"&gt;&lt;div class="SG_conn" id="module_901"&gt;
+    &lt;div class="SG_connHead"&gt;
+            &lt;span class="title" comp_title="涓汉璧勬枡"&gt;涓汉璧勬枡&lt;/span&gt;
+            &lt;span class="edit"&gt;
+                        &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="SG_connBody"&gt;
+        &lt;div class="info"&gt;
+                            
+            &lt;div class="info_img" id="comp_901_head"&gt;&lt;img src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" real_src ="http://portrait4.sinaimg.cn/1191258123/blog/180" id="comp_901_head_image" width="180" height="180" alt="闊╁瘨" title="闊╁瘨" /&gt;&lt;/div&gt;
+            
+            &lt;div class="info_txt"&gt;
+              &lt;div class="info_nm"&gt;
+                &lt;img id="comp_901_online_icon" style="display:none;" class="SG_icon SG_icon1" src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" width="15" height="15" align="absmiddle" /&gt;
+                &lt;span class="SG_txtb"&gt;&lt;strong id="ownernick"&gt;闊╁瘨                &lt;a href="http://blog.sina.com.cn/v/verify" target="_blank"&gt;&lt;img class="SG_icon SG_icon146" src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" width="15" height="15" title="鏂版氮涓汉璁よ瘉" alt="鏂版氮涓汉璁よ瘉" align="absmiddle" /&gt;&lt;/a&gt;                &lt;/strong&gt;&lt;/span&gt;
+                
+                &lt;div class="clearit"&gt;&lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class="info_btn1"&gt;
+              &lt;!--user['qing_url'] --&gt;
+                &lt;a target="_blank" href="http://qing.blog.sina.com.cn/u/1191258123" onclick="v7sendLog &amp;&amp; v7sendLog('79_01_01',scope.$pageid,'qingLink');"  class="SG_aBtn SG_aBtn_ico"&gt;&lt;cite&gt;&lt;img class="SG_icon SG_icon205" src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" width="15" height="15" align="absmiddle" /&gt;Qing&lt;/cite&gt;&lt;/a&gt;
+                &lt;a target="_blank" href="http://weibo.com/u/1191258123?source=blog" class="SG_aBtn SG_aBtn_ico"&gt;&lt;cite&gt;&lt;img class="SG_icon SG_icon51" src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" width="15" height="15" align="absmiddle" /&gt;寰崥&lt;/cite&gt;&lt;/a&gt;
+                &lt;div class="clearit"&gt;&lt;/div&gt;
+              &lt;/div&gt;
+    &lt;div class="SG_j_linedot"&gt;&lt;/div&gt;        &lt;div class="info_locate" id = "info_locate_id"&gt;
+&lt;div class="SG_j_linedot"&gt;&lt;/div&gt;
+&lt;div class="info_btn2"&gt;
+    &lt;p&gt;
+    &lt;a href="javascript:void(0);" class="SG_aBtn " id="comp901_btn_invite"&gt;&lt;cite &gt;鍔犲ソ鍙?/cite&gt;&lt;/a&gt;
+    &lt;a href="javascript:void(0);" class="SG_aBtn" id="comp901_btn_sendpaper"&gt;&lt;cite &gt;鍙戠焊鏉?/cite&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+    &lt;a href="http://blog.sina.com.cn/s/profile_1191258123.html#write" class="SG_aBtn"   id="comp901_btn_msninfo"&gt;&lt;cite&gt;鍐欑暀瑷€&lt;/cite&gt;&lt;/a&gt;
+    &lt;a href="#" onclick="return false;" class="SG_aBtn"  id="comp901_btn_follow"&gt;&lt;cite onclick="Module.SeeState.add()"&gt;鍔犲叧娉?/cite&gt;&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;div class="clearit"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="SG_j_linedot"&gt;&lt;/div&gt;
+&lt;/div&gt;
+                  &lt;div class="info_list"&gt;     
+                                   &lt;ul class="info_list1"&gt;
+                    &lt;li&gt;&lt;span class="SG_txtc"&gt;鍗氬绛夌骇锛?/span&gt;&lt;span id="comp_901_grade"&gt;&lt;img src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" real_src="http://simg.sinajs.cn/blog7style/images/common/number/3.gif"  /&gt;&lt;img src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" real_src="http://simg.sinajs.cn/blog7style/images/common/number/5.gif"  /&gt;&lt;/span&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;span class="SG_txtc"&gt;鍗氬绉垎锛?/span&gt;&lt;span id="comp_901_score"&gt;&lt;strong&gt;7622&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;ul class="info_list2"&gt;
+                    &lt;li&gt;&lt;span class="SG_txtc"&gt;鍗氬璁块棶锛?/span&gt;&lt;span id="comp_901_pv"&gt;&lt;strong&gt;597,504,569&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;span class="SG_txtc"&gt;鍏虫敞浜烘皵锛?/span&gt;&lt;span id="comp_901_attention"&gt;&lt;strong&gt;1,509,300&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/div&gt;
+&lt;div class="clearit"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="clearit"&gt;&lt;/div&gt;
+&lt;/div&gt;
+            &lt;/div&gt;       
+            &lt;div class="SG_connFoot"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="adps_person" style="display:none"&gt;
+&lt;div class="SG_conn" id="module_946"&gt;
+    &lt;div class="SG_connHead"&gt;
+            &lt;span class="title" comp_title="骞垮憡鍏变韩璁″垝"&gt;骞垮憡鍏变韩璁″垝&lt;/span&gt;
+            &lt;span class="edit"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="SG_connBody"&gt;
+                    &lt;!--骞垮憡瀹瑰櫒 --&gt; 
+           &lt;div class="widgetcen"&gt; 
+           &lt;div class="widgetconn" id="adps000001" &gt; 
+            骞垮憡鍏变韩璁″垝&lt;!--骞垮憡鍐呭 --&gt; 
+           &lt;/div&gt; 
+           &lt;/div&gt; 
+            &lt;!--骞垮憡瀹瑰櫒缁撴潫 --&gt; 
+         &lt;div class="clearit"&gt;&lt;/div&gt;
+    &lt;/div&gt;       
+    &lt;div class="SG_connFoot"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt; &lt;!--缁勫缓寮€濮?--&gt;
+&lt;div class="SG_conn " id="module_912"  &gt;
+  &lt;div class="SG_connHead"&gt;
+    &lt;span class="title"&gt;澶╁ぉ缇庨&lt;/span&gt;
+    &lt;span class="edit"&gt;
+       
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;!-- 缁勪欢寮€濮?--&gt;
+  &lt;div class="SG_connBody"&gt;
+    &lt;iframe src="http://blog.sina.com.cn/lm/iframe/article/meishi1.html?title_key=" frameborder="0" scrolling=no width="208" style="border: 0pt none; margin-left: 1px;" marginwidth="0" height="300"&gt;&lt;/iframe&gt;
+
+  &lt;/div&gt;
+  &lt;!-- 缁勪欢缁撴潫 --&gt;
+  &lt;div class="SG_connFoot"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Qingtuijian--&gt;&lt;div class="SG_conn " id="module_910"&gt;
+&lt;div class="SG_connHead"&gt;
+&lt;span class="title"&gt;绮惧僵鍥炬枃&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="SG_connBody"&gt;
+	&lt;iframe src="http://blog.sina.com.cn/lm/iframe/article/qing2.html" frameborder="0" scrolling=no width="208" style="border: 0pt none; margin-left: 1px;" marginwidth="0" height="609"&gt;&lt;/iframe&gt;
+	
+	
+
+
+&lt;/div&gt;
+&lt;div class="SG_connFoot"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--endQing--&gt;&lt;div class="SG_conn " id="module_909"&gt;
+&lt;div class="SG_connHead"&gt;
+    &lt;span class="title" comp_title="鍗氫富琚帹鑽愮殑鍗氭枃"&gt;鍗氫富琚帹鑽愮殑鍗氭枃&lt;/span&gt;
+        &lt;span class="edit"&gt;&lt;/span&gt;
+&lt;/div&gt;
+    &lt;div class="SG_connBody"&gt;
+        &lt;div class="pic_s1"&gt;&lt;a target="_blank" href="http://blog.sina.com.cn/lm/z/tuijian/index.html"&gt;&lt;img src="http://simg.sinajs.cn/blog7style/images/widget/cmt_banner_s.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="cmtA_tip"&gt;&lt;a suda-uatrack="key=blog_btjblog&amp;value=h_btjblog" target="_blank" href="http://blog.sina.com.cn/twocold"&gt;闊╁瘨&lt;/a&gt;鐨勮繖绡囧崥鏂囪鎺ㄨ崘鍒?a suda-uatrack="key=blog_btjblog&amp;value=h_btjblog" target="_blank" href="http://blog.sina.com.cn"&gt;鏂版氮鍗氬&lt;/a&gt;&lt;/div&gt;&lt;div class="SG_j_linedot cmtA_line"&gt;&lt;/div&gt;&lt;div class="cmtA_tit"&gt;姝ゅ崥涓昏鎺ㄨ崘鐨勫崥鏂囷細&lt;/div&gt;
+&lt;ul class="onlylist cmtA_arti" &gt;
+	&lt;li&gt;&lt;p&gt;&lt;span class="SG_dot"&gt;&lt;/span&gt;&lt;a  suda-uatrack="key=blog_btjblog&amp;value=h_btjblog"  target="_blank" href="http://blog.sina.com.cn/s/blog_4701280b0102eo83.html?tj=1"&gt;銆婅鐢靛奖鐨勪竷涓厓绱犮€嬧€斺€斿叧浜庘€?/a&gt;&lt;/p&gt;&lt;div class="SG_txtc"&gt;&lt;a  suda-uatrack="key=blog_btjblog&amp;value=h_btjblog"  href="http://www.sina.com.cn/" target="_blank"&gt;鏂版氮棣栭〉&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class="SG_dot"&gt;&lt;/span&gt;&lt;a  suda-uatrack="key=blog_btjblog&amp;value=h_btjblog"  target="_blank" href="http://blog.sina.com.cn/s/blog_4701280b0102elmo.html?tj=1"&gt;2013骞?9鏈?7鏃?/a&gt;&lt;/p&gt;&lt;div class="SG_txtc"&gt;&lt;a  suda-uatrack="key=blog_btjblog&amp;value=h_btjblog"  href="http://www.sina.com.cn/" target="_blank"&gt;鏂版氮棣栭〉&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class="SG_dot"&gt;&lt;/span&gt;&lt;a  suda-uatrack="key=blog_btjblog&amp;value=h_btjblog"  target="_blank" href="http://blog.sina.com.cn/s/blog_4701280b0102eksm.html?tj=1"&gt;2013骞?9鏈?6鏃?/a&gt;&lt;/p&gt;&lt;div class="SG_txtc"&gt;&lt;a  suda-uatrack="key=blog_btjblog&amp;value=h_btjblog"  href="http://www.sina.com.cn/" target="_blank"&gt;鏂版氮棣栭〉&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class="SG_dot"&gt;&lt;/span&gt;&lt;a  suda-uatrack="key=blog_btjblog&amp;value=h_btjblog"  target="_blank" href="http://blog.sina.com.cn/s/blog_4701280b0102ek51.html?tj=1"&gt;涓€娆″憡鍒?/a&gt;&lt;/p&gt;&lt;div class="SG_txtc"&gt;&lt;a  suda-uatrack="key=blog_btjblog&amp;value=h_btjblog"  href="http://www.sina.com.cn/" target="_blank"&gt;鏂版氮棣栭〉&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class="SG_dot"&gt;&lt;/span&gt;&lt;a  suda-uatrack="key=blog_btjblog&amp;value=h_btjblog"  target="_blank" href="http://blog.sina.com.cn/s/blog_4701280b0102egl0.html?tj=1"&gt;鍦伴渿鎬濊€冨綍&lt;/a&gt;&lt;/p&gt;&lt;div class="SG_txtc"&gt;&lt;a  suda-uatrack="key=blog_btjblog&amp;value=h_btjblog"  href="http://www.sina.com.cn/" target="_blank"&gt;鏂版氮棣栭〉&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+	&lt;!--&lt;li&gt;&lt;p&gt;&lt;span class="SG_dot"&gt;&lt;/span&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/p&gt;&lt;div class="w_list SG_txtc"&gt;&lt;/div&gt;&lt;/li&gt;--&gt;				
+&lt;/ul&gt;
+&lt;div class="more1"&gt;
+	&lt;span class="SG_more"&gt;&lt;a target="_blank" href="http://blog.sina.com.cn/s/article_recommended_1191258123_1.html"&gt;鍏ㄩ儴鎺ㄨ崘鍗氭枃&lt;/a&gt;&gt;&gt;&lt;/span&gt;&lt;br/&gt;
+	&lt;span class="SG_more"&gt;&lt;a target="_blank" href="http://blog.sina.com.cn/lm/z/tuijian/index.html"&gt;濡備綍鑾峰緱鏇村鎺ㄨ崘?&lt;/a&gt;&lt;/span&gt;&lt;br/&gt;
+
+&lt;/div&gt;    &lt;/div&gt;
+    &lt;div class="SG_connFoot"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;!--BeijingQingtuijian--&gt;&lt;div id="module_903" class="SG_conn "&gt;
+    &lt;div class="SG_connHead"&gt;
+    &lt;span comp_title="鐩稿叧鍗氭枃" class="title"&gt;鐩稿叧鍗氭枃&lt;/span&gt;
+    &lt;span class="edit"&gt; &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="SG_connBody"&gt;
+    &lt;div class="atcTitList relaList"&gt;        &lt;ul class=""&gt;
+
+                &lt;li class="SG_j_linedot1" style="display:none;"&gt;
+            &lt;p id="atcTitLi_SLOT_41" class="atcTitCell_tit SG_dot" style="display:none"&gt;
+        &lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li class="SG_j_linedot1" style="display:none;"&gt;
+            &lt;p id="atcTitLi_SLOT_42"  class="atcTitCell_tit SG_dot" style="display:none"&gt;
+        &lt;/p&gt;
+        &lt;/li&gt;
+        
+                	&lt;/ul&gt;
+    &lt;div class="atcTit_more"&gt;&lt;span class="SG_more"&gt;&lt;a href="http://search.sina.com.cn/?c=blog&amp;q=%D4%D3%CC%B8%2C%D0%DD%CF%D0&amp;by=tag" target="_blank"&gt;鏇村&amp;gt;&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;div class="SG_connFoot"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class="SG_conn " id="module_904"&gt;
+&lt;div class="SG_connHead"&gt;
+&lt;span class="title"&gt;鎺ㄨ崘鍗氭枃&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="SG_connBody "&gt;
+	&lt;div class="atcTitList relaList"&gt;		&lt;ul class=""&gt;
+			&lt;li class="SG_j_linedot1"&gt;&lt;p class="atcTitCell_tit SG_dot"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" title="缇庢境鎼滃澶辫仈瀹㈡満鏃犳灉&amp;nbsp" target="_blank" href="http://blog.sina.com.cn/s/blog_5d8d68c10102efak.html?tj=2"&gt;缇庢境鎼滃澶辫仈瀹㈡満鏃犳灉&amp;nbsp&lt;/a&gt;&lt;/p&gt;
+        &lt;p class="atcTitCell_nm"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" target="_blank" href="http://blog.sina.com.cn/u/1569548481" class="SG_linkb"&gt;涔旂鐪嬪ぉ涓?/a&gt;&lt;/p&gt;
+		&lt;/li&gt;&lt;li class="SG_j_linedot1"&gt;&lt;p class="atcTitCell_tit SG_dot"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" title="鐧藉閲岄潰澶曢槼绾⑩€旇亰鑱婂ゥ宸撮┈鐨勪笀" target="_blank" href="http://blog.sina.com.cn/s/blog_65a8daf50101gegp.html?tj=2"&gt;鐧藉閲岄潰澶曢槼绾⑩€旇亰鑱婂ゥ宸撮┈鐨勪笀&lt;/a&gt;&lt;/p&gt;
+        &lt;p class="atcTitCell_nm"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" target="_blank" href="http://blog.sina.com.cn/u/1705564917" class="SG_linkb"&gt;鑰佹潨鎵句箰鍎?/a&gt;&lt;/p&gt;
+		&lt;/li&gt;&lt;li class="SG_j_linedot1"&gt;&lt;p class="atcTitCell_tit SG_dot"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" title="20140320鍞愬笀鏇撅細鍙ゅ焹鍙? target="_blank" href="http://blog.sina.com.cn/s/blog_4ab761450102eiq6.html?tj=2"&gt;20140320鍞愬笀鏇撅細鍙ゅ焹鍙?/a&gt;&lt;/p&gt;
+        &lt;p class="atcTitCell_nm"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" target="_blank" href="http://blog.sina.com.cn/u/1253531973" class="SG_linkb"&gt;鍞愬笀鏇?/a&gt;&lt;/p&gt;
+		&lt;/li&gt;&lt;li class="SG_j_linedot1"&gt;&lt;p class="atcTitCell_tit SG_dot"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" title="閲嶆柊瀹¤鏀粯鏈嶅姟鍒涙柊鐨勭洃绠￠€昏緫" target="_blank" href="http://blog.sina.com.cn/s/blog_aa83df140101i1eg.html?tj=2"&gt;閲嶆柊瀹¤鏀粯鏈嶅姟鍒涙柊鐨勭洃绠￠€昏緫&lt;/a&gt;&lt;/p&gt;
+        &lt;p class="atcTitCell_nm"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" target="_blank" href="http://blog.sina.com.cn/u/2860769044" class="SG_linkb"&gt;浜掕仈缃戦噾铻?/a&gt;&lt;/p&gt;
+		&lt;/li&gt;&lt;li class="SG_j_linedot1"&gt;&lt;p class="atcTitCell_tit SG_dot"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" title="銆婃垜浠殑鑻遍泟閮藉幓鍝効浜嗭紵銆?鐣? target="_blank" href="http://blog.sina.com.cn/s/blog_48a082b70101ggd6.html?tj=2"&gt;銆婃垜浠殑鑻遍泟閮藉幓鍝効浜嗭紵銆?鐣?/a&gt;&lt;/p&gt;
+        &lt;p class="atcTitCell_nm"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" target="_blank" href="http://blog.sina.com.cn/u/1218478775" class="SG_linkb"&gt;鍛ㄥ皬骞冲悓蹇?/a&gt;&lt;/p&gt;
+		&lt;/li&gt;&lt;li class="SG_j_linedot1"&gt;&lt;p class="atcTitCell_tit SG_dot"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" title="銆怐iscovery銆戠┖闅句簨浠? target="_blank" href="http://blog.sina.com.cn/s/blog_621f6a010101pok0.html?tj=2"&gt;銆怐iscovery銆戠┖闅句簨浠?/a&gt;&lt;/p&gt;
+        &lt;p class="atcTitCell_nm"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" target="_blank" href="http://blog.sina.com.cn/u/1646225921" class="SG_linkb"&gt;涓浗绉戝鎺㈤櫓&lt;/a&gt;&lt;/p&gt;
+		&lt;/li&gt;&lt;li class="SG_j_linedot1"&gt;&lt;p class="atcTitCell_tit SG_dot"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" title="涓浗鍜屼縿缃楁柉鏄垬鐣ヤ紮浼翠箞锛? target="_blank" href="http://blog.sina.com.cn/s/blog_4c687df40102e2on.html?tj=2"&gt;涓浗鍜屼縿缃楁柉鏄垬鐣ヤ紮浼翠箞锛?/a&gt;&lt;/p&gt;
+        &lt;p class="atcTitCell_nm"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" target="_blank" href="http://blog.sina.com.cn/u/1281916404" class="SG_linkb"&gt;鍗噾妗?/a&gt;&lt;/p&gt;
+		&lt;/li&gt;&lt;li class="SG_j_linedot1"&gt;&lt;p class="atcTitCell_tit SG_dot"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" title="鐢熶负缇庡浗浜? target="_blank" href="http://blog.sina.com.cn/s/blog_4870bbec0101hqgv.html?tj=2"&gt;鐢熶负缇庡浗浜?/a&gt;&lt;/p&gt;
+        &lt;p class="atcTitCell_nm"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" target="_blank" href="http://blog.sina.com.cn/u/1215347692" class="SG_linkb"&gt;鑳℃浖鑽?/a&gt;&lt;/p&gt;
+		&lt;/li&gt;&lt;li class="SG_j_linedot1"&gt;&lt;p class="atcTitCell_tit SG_dot"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" title="涔犱功璁板悆鐨勨€滃ぇ閿呴キ鈥濅竴璇嶈嫳鏂囨€? target="_blank" href="http://blog.sina.com.cn/s/blog_5048cdc30102eiz0.html?tj=2"&gt;涔犱功璁板悆鐨勨€滃ぇ閿呴キ鈥濅竴璇嶈嫳鏂囨€?/a&gt;&lt;/p&gt;
+        &lt;p class="atcTitCell_nm"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" target="_blank" href="http://blog.sina.com.cn/u/1346948547" class="SG_linkb"&gt;钖涘瓙V&lt;/a&gt;&lt;/p&gt;
+		&lt;/li&gt;&lt;li class="SG_j_linedot1"&gt;&lt;p class="atcTitCell_tit SG_dot"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" title="鏂硅垷瀛愯璋堬細瑙ｅ紑杞熀鍥犵殑鍥版儜" target="_blank" href="http://blog.sina.com.cn/s/blog_474068790102edoz.html?tj=2"&gt;鏂硅垷瀛愯璋堬細瑙ｅ紑杞熀鍥犵殑鍥版儜&lt;/a&gt;&lt;/p&gt;
+        &lt;p class="atcTitCell_nm"&gt;&lt;a suda-uatrack="key=blog_tjblog&amp;value=h_tjblog" target="_blank" href="http://blog.sina.com.cn/u/1195403385" class="SG_linkb"&gt;鏂硅垷瀛?/a&gt;&lt;/p&gt;
+		&lt;/li&gt;		&lt;/ul&gt;
+		&lt;div id="atcPicList"&gt;
+		&lt;/div&gt;
+	&lt;div class="atcTit_more"&gt;&lt;span class="SG_more"&gt;&lt;a target="_blank" href="http://blog.sina.com.cn/lm/top/zatan/day.html"&gt;鏌ョ湅鏇村&lt;/a&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class="SG_connFoot"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+	&lt;!--绗竴鍒梕nd--&gt;
+	
+	&lt;!--绗簩鍒梥tart--&gt;
+	&lt;div id="column_2" class="SG_colW73"&gt;	
+&lt;div id="module_920" class="SG_conn"&gt;
+	&lt;div class="SG_connHead"&gt;
+	    &lt;span comp_title="姝ｆ枃" class="title"&gt;姝ｆ枃&lt;/span&gt;
+	    &lt;span class="edit"&gt;&lt;span id="articleFontManage" class="fontSize"&gt;瀛椾綋澶у皬锛?a href="javascript:;" onclick="changeFontSize(2);return false;"&gt;澶?/a&gt; &lt;strong&gt;涓?/strong&gt; &lt;a href="javascript:;" onclick="changeFontSize(0);return false;"&gt;灏?/a&gt;&lt;/span&gt;&lt;/span&gt;
+	&lt;/div&gt;
+    &lt;div class="SG_connBody"&gt;
+&lt;!--鍗氭枃姝ｆ枃 begin --&gt;
+	&lt;div id="articlebody" class="artical" favMD5='{"4701280b0102eo83":"48c73a5eb2fb8e942d7f7bc116a0e1b1"}'&gt;
+		&lt;div class="articalTitle"&gt; 
+			
+						&lt;span class="img1"&gt; 
+					&lt;a href="http://www.sina.com.cn/" target ="_blank"&gt;&lt;img class="SG_icon SG_icon107" src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" width="18" height="18" title="宸叉帹鑽愬埌鏂版氮棣栭〉锛岀偣鍑绘煡鐪嬫洿澶氱簿褰╁唴瀹? align="absmiddle" /&gt;&lt;/a&gt;			
+			&lt;/span&gt;
+							&lt;h2 id="t_4701280b0102eo83" class="titName SG_txta"&gt;銆婅鐢靛奖鐨勪竷涓厓绱犮€嬧€斺€斿叧浜庢垜瀵圭數褰辩殑涓€浜涚湅娉曚互鍙娿€婂悗浼氭棤鏈熴€嬬殑涓€浜涙秷鎭?/h2&gt;
+			
+					&lt;span class="time SG_txtc"&gt;(2014-01-14 15:29:49)&lt;/span&gt;&lt;div class="turnBoxzz"&gt;&lt;a href="javascript:;" class="SG_aBtn SG_aBtn_ico SG_turn"  action-type="reblog" action-data="{srcBlog:1, blogId:'4701280b0102eo83'}"&gt;&lt;cite&gt;&lt;img class="SG_icon SG_icon111" src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" width="15" height="15" align="absmiddle"&gt;杞浇&lt;em class="arrow"&gt;鈻?/em&gt;&lt;/cite&gt;&lt;/a&gt;&lt;/div&gt;		&lt;/div&gt;
+		&lt;div class="articalTag" id="sina_keyword_ad_area"&gt;
+			&lt;table&gt;
+				&lt;tr&gt;
+					&lt;td class="blog_tag"&gt;
+					&lt;script&gt;
+					var $tag='';
+					var $tag_code='75b66d9d5df453c53344f8b96ca62e6e';
+					var $r_quote_bligid='4701280b0102eo83';
+					var $worldcup='0';
+					var $worldcupball='0';
+					&lt;/script&gt;
+										&lt;/td&gt;
+					&lt;td class="blog_class"&gt;
+										&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;
+						&lt;!-- 姝ｆ枃寮€濮?--&gt;
+		&lt;div id="sina_keyword_ad_area2" class="articalContent  "&gt;
+			&lt;span class='MASSf21674ffeef7'&gt;&lt;/span&gt;&lt;div STYLE="min-height:22px"&gt;
+&lt;span class='MASSf21674ffeef7'&gt;鏈潵鍑犳棩鍛婅瘔澶у銆傝櫧璇寸綉缁滀笂鏈変竴浜涘墽鏈姒傚拰鐚滄兂&amp;#65292;浣嗙湡瀹炵殑鏁呬簨鎴戣寰楀湪杩欓噷璇翠篃娌℃湁浠€涔堝お澶х殑鎰忎箟銆傛湭鏉ヤ細鍜屽ぇ瀹跺垎浜竴浜涘婕斿績寰椾笌闈為檺鍒剁骇鐨勫墽缁勬晠浜嬨€備笂鏄犳棩鏈熶笉鑷充簬鍚庝細鏃犳湡&amp;#65292;浣嗕篃瑕佽鍚勭瀹㈣鏉′欢鑰屽畾&amp;#65292;鎴戣嚜鐒舵槸甯屾湜鍋氬ソ涓烘銆?
+
+
+鏈夋湅鍙嬭寰椼€婂悗浼氭棤鏈熴€嬪繀瀹氭槸涓笉閿欑殑鐢靛奖&amp;#65292;涔熸湁浜鸿寰楄偗瀹氱儌鎴愭福&amp;#65292;杩欎簺閮戒笉閲嶈&amp;#65292;鍋氬嚭鏉ュ墠鐢氳嚦涓婃槧涔嬪悗&amp;#65292;鎴戣嚜宸遍兘涓嶄細鍋氬お澶氳瘎浠?#65292;閭ｆ槸浠栦汉鐨勪簨鎯呫€備絾鏈変汉缁欐垜鍙戠煭淇¤娆ｈ祻鎴?#65292;鎯冲仛灏卞幓鍋氫簡&amp;#65292;娼囨磼&amp;#65292;鐘€鍒?#65292;涔冩槸璇磋蛋灏辫蛋鐨勬梾琛屻€傛垜鍏跺疄涓嶈禐鍚屻€?
+
+
+涓栦笂铏界劧娌℃湁瀹屽叏鐨勫噯澶囧厖鍒?#65292;浣嗗繀椤昏鏈夊噯澶囦笌绉疮鐨?#65292;鍜变笉鑳藉彧鐪嬭浜哄椋炲湪澶╀笂鍚冭倝鐨勬牱瀛愯€屽拷瑙嗕汉瀹惰韪╁湪鍦颁笅鍚冨睅鐨勬棩瀛愩€傞偅浜涘彇寰楀法澶ф垚鍔熺殑鏂板婕斾滑涓嶆槸澶╀笂鎺変笅鏉ョ殑&amp;#65292;鑰屾槸娉ラ噷璧拌繃鏉ョ殑銆傝繖涔堝骞翠簡&amp;#65292;鎴戜篃涓€鐩村湪瀛︿範&amp;#65292;鍐欏畬杩欎簺&amp;#65292;涓撳績寮€宸ュ幓&amp;#65292;甯屾湜鎴愮墖涓嶈礋澶у&amp;#65292;鏇翠笉璐熻嚜宸便€?
+
+
+瀵逛簡&amp;#65292;杩欓儴鐢靛奖閲?#65292;鏈夊涓嬪崄涓厓绱犫€︹€?&lt;/span&gt;&lt;div STYLE="min-height:22px"&gt;
+杩欎簺澶?#65292;涓嶅皯鏈嬪弸鍜屽獟浣撴潵闂叧浜庛€婂悗浼氭棤鏈熴€嬬殑鎯呭喌&amp;#65292;鍐欎竴绡囩煭鏂?#65292;鍛婅瘔澶у涓€浜涙晠浜嬪拰鎯虫硶銆?/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;span class='MASSf21674ffeef7'&gt;&lt;/span&gt;&lt;div STYLE="min-height:22px"&gt;
+宸笉澶氫簲骞村墠&amp;#65292;鎴戞瀯鎬濅簡涓€涓墽鏈?#65292;鎯宠嚜宸卞婕斾竴閮ㄧ數褰?#65292;浜庢槸寰€杩斿悇涓煄甯傚鎵炬姇璧勬柟銆傛垜鐨勬兂娉曞拰褰撳勾寮€濮嬭禌杞︽椂涓€鏍?#65292;鑷繁鐨勭増绋庡姞鎶曡祫鏂圭殑涓€閮ㄥ垎閽卞氨鍙互寮€骞蹭簡銆傚綋鏃剁殑鐢靛奖甯傚満杩樻病鏈変粖鏃ラ偅涔堢伀鐑?#65292;鎵€浠ュ悇鏂归潰閮戒笉澶垚鐔熴€備竴骞村悗&amp;#65292;鎴戞妸杩欎釜鏁呬簨鍐欐垚浜嗗皬璇村嚭鐗?#65292;閭ｆ湰灏忚灏辨槸銆婁粬鐨勫浗銆嬨€?/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;span class='MASSf21674ffeef7'&gt;&lt;/span&gt;&lt;div STYLE="min-height:22px"&gt;
+鐒跺悗鏄笁骞村鍓?#65292;鎴戝張鏋勬€濅簡涓€涓墽鏈?#65292;杩樻槸鎯宠嚜宸卞婕旇繖涓晠浜?#65292;鍙堝線杩斿悇涓煄甯傚拰涓嶅皯浜鸿皥銆傚綋鏃剁數褰卞競鍦烘棩娓愮孩鐏?#65292;鏂板婕斾篃鏈変簡鏇村鐨勭┖闂?#65292;鏃犲杩欎釜鏁呬簨鏈韩绋嶆晱鎰?#65292;鎵€浠ヨ繕鏄病鏈夋垚鍔熴€傛垜鍙堟妸杩欎釜鏁呬簨鍐欐垚灏忚鍑虹増&amp;#65292;閭ｆ湰灏忚灏辨槸銆?988鎴戞兂鍜岃繖涓笘鐣岃皥璋堛€嬨€?/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;span class='MASSf21674ffeef7'&gt;&lt;/span&gt;&lt;div STYLE="min-height:22px"&gt;
+鐢靛奖涓庡嚭鐗堜笉涓€鏍?#65292;鎴戝啓涓€鏈功&amp;#65292;鏃犺鍗栧灏?#65292;鎴戝拰鍑虹増鍟嗛兘涓嶄細浜?#65292;鏃犻潪璧氬鎴栬€呰禋灏戙€傜數褰辫嫢鏄儭鏉ユ垨鑰呭洶椤垮湪瀵兼紨鏈汉鐨勪竴浜涗釜浜烘儏缁撻噷&amp;#65292;寰堝鏄撳浜哄宸便€傛垜渚濈劧鍦ㄧ（纾ㄥ敡鍞у仛鐫€鍓ф湰銆備絾鍘诲勾鐢靛奖甯傚満鐏垎&amp;#65292;灏ゅ叾鏄柊瀵兼紨妯┖鍑轰笘&amp;#65292;鏉ユ壘鎴戞媿鐢靛奖鐨勪汉绐佺劧鍓у銆?/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;span class='MASSf21674ffeef7'&gt;&lt;/span&gt;&lt;div STYLE="min-height:22px"&gt;
+鍏朵腑鏈夊嚑涓湅鍙嬪緢涓嶉敊&amp;#65292;鐩歌皥鐢氭&amp;#65292;鎴戝鍒颁笉灏?#65292;浣嗘洿澶氫汉鏄敤鎸栫叅鎸栫熆鐨勭粡楠屽湪瀵瑰緟褰辫銆傛湁璇锋垜婕旀垙鐨?#65292;鎶婃垜璇寸殑鏂囪兘鎺ц悵鑾夋鑳芥垬褰卞笣&amp;#65292;鎴戝綋鐒跺彧鑳藉鎷?#65292;鏇村鏄鎴戝婕旂數褰辩殑&amp;#65292;寰堝浜洪兘鏄甫鐫€浣犳媿浠€涔堜笉閲嶈鍙嶆鎴戞妸閽辨媿妗屼笂浜嗙殑璞皵鑰屾潵銆傚墿涓嬪垯鏄棶鎴戞湁浠€涔堥」鐩粙缁?#65292;鐢氳嚦杩炴垜杩滄埧浜叉垰瀹跺紑鍏婚浮鍦虹殑閭诲眳閮借瑕佹姇褰辫&amp;#65292;鍘熷洜灏辨槸璧氶挶&amp;#65292;椋庡厜&amp;#65292;娌℃湁绂芥祦鎰熴€?/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;span class='MASSf21674ffeef7'&gt;&lt;/span&gt;&lt;div STYLE="min-height:22px"&gt;
+浠栦滑鐪奸噷閮藉彧鏈夌洿涓婁簯闇勭殑椋庡厜&amp;#65292;浼间箮娌′汉鑰冭檻杩囩洿鍧犳繁娓婄殑鎯ㄧ姸&amp;#65292;閭ｄ簺鎶婁竴涓叕鍙歌禂鐮翠骇鐨?#65292;鐢氳嚦杩為櫌绾块兘涓婁笉浜嗙殑鐢靛奖濂藉儚浠庢潵涓嶅瓨鍦?#65292;寮€鍙ｉ棴鍙ｉ兘鍙湁鈥滄嘲鍥р€?鈥滆タ娓糕€濃€滆嚧闈掓槬鈥濃€滃悎浼欎汉鈥濄€傚叾涓緢澶氫汉瀵圭數褰辩殑鐞嗚В闈炲父鏈夋剰鎬?#65292;瑕佹槸鏃佷汉璺繃鍚嚑鑰?#65292;杩樹互涓鸿皥鐨勬槸鍖栧&amp;#65292;灏芥槸鈥滃厓绱犫€?#65292;瑙夊緱鐢靛奖灏辨槸鍒楀嚭涓€涓厓绱犺〃&amp;#65292;
+鐒跺悗寰€閲屽～涓滆タ鍐嶅姞涓€浜涜繃鏃剁殑缃戠粶娈靛瓙灏辫兘鎴愬姛&amp;#65292;鍦ㄦ湁浜虹湅鏉?#65292;鎵€璋撶數褰?#65292;鎽囪噦鍗囪捣灏辨槸瀹忓ぇ&amp;#65292;涔辩潃鍙欎簨灏辨槸鏂伴&amp;#65292;鍓鎴愭福灏辨槸鍓嶅崼&amp;#65292;鍗囨牸鐗瑰啓灏辨槸缁嗚吇&amp;#65292;鍠滃墽鐗囧氨鏄妸鑴歌创鍒伴暅澶翠笂婕旀垙&amp;#65292;闈掓槬鐗囧氨鏄獞鑷杞﹀紶寮€鍙岃噦&amp;#65292;鏃犺鎷嶄粈涔?#65292;棰勬湡閮芥槸浜斾嚎銆?/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;span class='MASSf21674ffeef7'&gt;&lt;/span&gt;&lt;div STYLE="min-height:22px"&gt;
+杩樻湁浜哄鎴戣&amp;#65292;瀵规垜鐨勯鏈熸洿楂?#65292;鎴戝畾鑳芥嬁涓冧嚎绁ㄦ埧&amp;#65292;鍙鎴戞壘榻愪粬鍙ｄ腑鐨勪竷涓厓绱犮€傛垜鎵撴柇浜嗕粬&amp;#65292;鎶婇偅浜涙墍璋撶殑鈥滃厓绱犫€濇眹鑱氫絾闈炲父澶辫触鐨勭數褰卞垪涓惧嚭鏉?#65292;骞朵竴鍐嶆彁閱?#65292;鍑粈涔堜綘灏辫寰楁垜涓嶄細鎼炵牳&amp;#65292;鎵€璋撳井鍗氱矇涓濅箣绫荤殑閮芥槸绌虹殑&amp;#65292;鏄棤娉曡浆鎹㈢殑&amp;#65292;涓€涓汉鍐嶇伀&amp;#65292;鍑犲崄涓囬搧鏉嗙矇涓濇渶澶氫簡&amp;#65292;濡傛灉鐗囧瓙涓嶅ソ&amp;#65292;鏄棤娉曟敮鎾戣捣涓€閮ㄧ數褰辩殑銆?浠栦滑璇?#65292;杩欎簺閮芥槸钀ラ攢涓嶅ソ&amp;#65292;瑕佸己浜庤惀閿€&amp;#65292;浠栦滑鐨勫叕鍙稿钀ラ攢鏈夊績寰?#65292;浣犵湅&amp;#65292;姣斿浣犺繖鏈€?988鎴戞兂鍜岃繖涓笘鐣岃皥璋堛€?#65292;杩欏悕瀛楀氨涓嶈&amp;#65292;鍜卞叕鍙告綔蹇冪爺绌?#65292;鍙戠幇涓€涓寰?#65292;澶у崠鐢靛奖閮芥槸涓や釜瀛?#65292;涓変釜瀛?#65292;鍥涗釜瀛?#65292;浣犺繖涓鏀瑰悕鎴愨€滄垜鎯宠皥鈥?#65292;绁ㄦ埧灏卞ぇ鐖嗐€傚摝&amp;#65292;杩樿鎵鹃綈涓冧釜鍏冪礌銆?/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;鎴戣寰椾粬涓€瀹氫細鐖辩湅銆婁竷榫欑彔銆嬬殑銆?/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;&lt;span class='MASSf21674ffeef7'&gt;&lt;/span&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;涓€澶滀箣闂?#65292;韬竟鐨勬枃鍖栦汉浠兘鍦ㄨ鐢靛奖鐞嗘兂銆?/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;
+鎴戝叾瀹炰竴鐩翠笉鍠滄鈥滅數褰辩悊鎯斥€濆洓涓瓧銆傚洜涓虹粷澶ч儴鍒嗙殑鏂囧寲浜?#65292;瀵圭數褰遍兘鏄劅鍏磋叮鍜屽瓨鐞嗘兂鐨?#65292;灏卞儚濂冲浠ぇ澶氭兂寮€鍜栧暋棣嗕竴鏍枫€傚湪杩欑鎯呭喌涓?#65292;鈥滅數褰辩悊鎯斥€濇棭宸茬粡绠椾笉寰楁槸浠€涔堜笢瑗?#65292;鐢靛奖鎬佸害涓庣數褰辫兘鍔涙墠鏄噸瑕佺殑銆?/DIV&gt;
+&lt;span class='MASSf21674ffeef7'&gt;鐞嗚В闈炲父鏈夋剰鎬?#65292;瑕佹槸鏃佷汉璺繃鍚嚑鑰?#65292;杩樹互涓鸿皥鐨勬槸鍖栧&amp;#65292;灏芥槸鈥滃厓绱犫€?#65292;瑙夊緱鐢靛奖灏辨槸鍒楀嚭涓€涓厓绱犺〃&amp;#65292;
+鐒跺悗寰€閲屽～涓滆タ鍐嶅姞涓€浜涜繃鏃剁殑缃戠粶娈靛瓙灏辫兘鎴愬姛&amp;#65292;鍦ㄦ湁浜虹湅鏉?#65292;鎵€璋撶數褰?#65292;鎽囪噦鍗囪捣灏辨槸瀹忓ぇ&amp;#65292;涔辩潃鍙欎簨灏辨槸鏂伴&amp;#65292;鍓鎴愭福灏辨槸鍓嶅崼&amp;#65292;鍗囨牸鐗瑰啓灏辨槸缁嗚吇&amp;#65292;鍠滃墽鐗囧氨鏄妸鑴歌创鍒伴暅澶翠笂婕旀垙&amp;#65292;闈掓槬鐗囧氨鏄獞鑷杞﹀紶寮€鍙岃噦&amp;#65292;鏃犺鎷嶄粈涔?#65292;棰勬湡閮芥槸浜斾嚎銆?
+
+
+杩樻湁浜哄鎴戣&amp;#65292;瀵规垜鐨勯鏈熸洿楂?#65292;鎴戝畾鑳芥嬁涓冧嚎绁ㄦ埧&amp;#65292;鍙鎴戞壘榻愪粬鍙ｄ腑鐨勪竷涓厓绱犮€傛垜鎵撴柇浜嗕粬&amp;#65292;鎶婇偅浜涙墍璋撶殑鈥滃厓绱犫€濇眹鑱氫絾闈炲父澶辫触鐨勭數褰卞垪涓惧嚭鏉?#65292;骞朵竴鍐嶆彁閱?#65292;鍑粈涔堜綘灏辫寰楁垜涓嶄細鎼炵牳&amp;#65292;鎵€璋撳井鍗氱矇涓濅箣绫荤殑閮芥槸绌虹殑&amp;#65292;鏄棤娉曡浆鎹㈢殑&amp;#65292;涓€涓汉鍐嶇伀&amp;#65292;鍑犲崄涓囬搧鏉嗙矇涓濇渶澶氫簡&amp;#65292;濡傛灉鐗囧瓙涓嶅ソ&amp;#65292;鏄棤娉曟敮鎾戣捣涓€閮ㄧ數褰辩殑銆?浠栦滑璇?#65292;杩欎簺閮芥槸钀ラ攢涓嶅ソ&amp;#65292;瑕佸己浜庤惀閿€&amp;#65292;浠栦滑鐨勫叕鍙稿钀ラ攢鏈夊績寰?#65292;浣犵湅&amp;#65292;姣斿浣犺繖鏈€?988鎴戞兂鍜岃繖涓笘鐣岃皥璋堛€?#65292;杩欏悕瀛楀氨涓嶈&amp;#65292;鍜卞叕鍙告綔蹇冪爺绌?#65292;鍙戠幇涓€涓寰?#65292;澶у崠鐢靛奖閮芥槸涓や釜瀛?#65292;涓変釜瀛?#65292;鍥涗釜瀛?#65292;浣犺繖涓鏀瑰悕鎴愨€滄垜鎯宠皥鈥?#65292;绁ㄦ埧灏卞ぇ鐖嗐€傚摝&amp;#65292;杩樿鎵鹃綈涓冧釜鍏冪礌銆?
+鎴戣寰椾粬涓€瀹氫細鐖辩湅銆婁竷榫欑彔銆嬬殑銆?
+
+
+涓€澶滀箣闂?#65292;韬竟鐨勬枃鍖栦汉浠兘鍦ㄨ鐢靛奖鐞嗘兂銆?
+鎴戝叾瀹炰竴鐩翠笉鍠滄鈥滅數褰辩悊鎯斥€濆洓涓瓧銆傚洜涓虹粷澶ч儴鍒嗙殑鏂囧寲浜?#65292;瀵圭數褰遍兘鏄劅鍏磋叮鍜屽瓨鐞嗘兂鐨?#65292;灏卞儚濂冲浠ぇ澶氭兂寮€鍜栧暋棣嗕竴鏍枫€傚湪杩欑鎯呭喌涓?#65292;鈥滅數褰辩悊鎯斥€濇棭宸茬粡绠椾笉寰楁槸浠€涔堜笢瑗?#65292;鐢靛奖鎬佸害涓庣數褰辫兘鍔涙墠鏄噸瑕佺殑銆?
+
+
+璇村洖銆婂悗浼氭棤鏈熴€?#65292;杩欓儴鐢靛奖鐨勫埗鐗囧叕鍙告槸鍔抽浄褰变笟&amp;#65292;鎰熻阿鍒剁墖浜鸿€佹柟澶氬勾鏉ョ殑鏀寔&amp;#65292;鎰熻阿鍓х粍閲屼负杩欓儴鐢靛奖涓庢垜涓€璧峰娉㈢殑鏈嬪弸浠?#65292;涔熻鎰熻阿澶氬勾鍓嶅ソ鍙嬬綏鍏堢敓&amp;#65292;鏉ㄥコ澹殑淇′换涓庡府蹇?#65288;寮€鏈洪キ閮借繕娌″悆鎬庝箞璇寸殑璺熻幏濂栨劅瑷€浼肩殑鈥︹€?#65289;銆備竴杩囨柊骞存垜浠氨浼氬紑鏈?#65292;婕斿憳闃靛浼氬湪&lt;/span&gt;&lt;div STYLE="min-height:22px"&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;
+璇村洖銆婂悗浼氭棤鏈熴€?#65292;杩欓儴鐢靛奖鐨勫埗鐗囧叕鍙告槸鍔抽浄褰变笟&amp;#65292;鎰熻阿鍒剁墖浜鸿€佹柟澶氬勾鏉ョ殑鏀寔&amp;#65292;鎰熻阿鍓х粍閲屼负杩欓儴鐢靛奖涓庢垜涓€璧峰娉㈢殑鏈嬪弸浠?#65292;涔熻鎰熻阿澶氬勾鍓嶅ソ鍙嬬綏鍏堢敓&amp;#65292;鏉ㄥコ澹殑淇′换涓庡府蹇?#65288;寮€鏈洪キ閮借繕娌″悆鎬庝箞璇寸殑璺熻幏濂栨劅瑷€浼肩殑鈥︹€?#65289;銆備竴杩囨柊骞存垜浠氨浼氬紑鏈?#65292;婕斿憳闃靛浼氬湪鏈潵鍑犳棩鍛婅瘔澶у銆傝櫧璇寸綉缁滀笂鏈変竴浜涘墽鏈姒傚拰鐚滄兂&amp;#65292;浣嗙湡瀹炵殑鏁呬簨鎴戣寰楀湪杩欓噷璇翠篃娌℃湁浠€涔堝お澶х殑鎰忎箟銆傛湭鏉ヤ細鍜屽ぇ瀹跺垎浜竴浜涘婕斿績寰椾笌闈為檺鍒剁骇鐨勫墽缁勬晠浜嬨€備笂鏄犳棩鏈熶笉鑷充簬鍚庝細鏃犳湡&amp;#65292;浣嗕篃瑕佽鍚勭瀹㈣鏉′欢鑰屽畾&amp;#65292;鎴戣嚜鐒舵槸甯屾湜鍋氬ソ涓烘銆?/DIV&gt;
+&lt;span class='MASSf21674ffeef7'&gt;鐞嗚В闈炲父鏈夋剰鎬?#65292;瑕佹槸鏃佷汉璺繃鍚嚑鑰?#65292;杩樹互涓鸿皥鐨勬槸鍖栧&amp;#65292;灏芥槸鈥滃厓绱犫€?#65292;瑙夊緱鐢靛奖灏辨槸鍒楀嚭涓€涓厓绱犺〃&amp;#65292;
+鐒跺悗寰€閲屽～涓滆タ鍐嶅姞涓€浜涜繃鏃剁殑缃戠粶娈靛瓙灏辫兘鎴愬姛&amp;#65292;鍦ㄦ湁浜虹湅鏉?#65292;鎵€璋撶數褰?#65292;鎽囪噦鍗囪捣灏辨槸瀹忓ぇ&amp;#65292;涔辩潃鍙欎簨灏辨槸鏂伴&amp;#65292;鍓鎴愭福灏辨槸鍓嶅崼&amp;#65292;鍗囨牸鐗瑰啓灏辨槸缁嗚吇&amp;#65292;鍠滃墽鐗囧氨鏄妸鑴歌创鍒伴暅澶翠笂婕旀垙&amp;#65292;闈掓槬鐗囧氨鏄獞鑷杞﹀紶寮€鍙岃噦&amp;#65292;鏃犺鎷嶄粈涔?#65292;棰勬湡閮芥槸浜斾嚎銆?
+
+
+杩樻湁浜哄鎴戣&amp;#65292;瀵规垜鐨勯鏈熸洿楂?#65292;鎴戝畾鑳芥嬁涓冧嚎绁ㄦ埧&amp;#65292;鍙鎴戞壘榻愪粬鍙ｄ腑鐨勪竷涓厓绱犮€傛垜鎵撴柇浜嗕粬&amp;#65292;鎶婇偅浜涙墍璋撶殑鈥滃厓绱犫€濇眹鑱氫絾闈炲父澶辫触鐨勭數褰卞垪涓惧嚭鏉?#65292;骞朵竴鍐嶆彁閱?#65292;鍑粈涔堜綘灏辫寰楁垜涓嶄細鎼炵牳&amp;#65292;鎵€璋撳井鍗氱矇涓濅箣绫荤殑閮芥槸绌虹殑&amp;#65292;鏄棤娉曡浆鎹㈢殑&amp;#65292;涓€涓汉鍐嶇伀&amp;#65292;鍑犲崄涓囬搧鏉嗙矇涓濇渶澶氫簡&amp;#65292;濡傛灉鐗囧瓙涓嶅ソ&amp;#65292;鏄棤娉曟敮鎾戣捣涓€閮ㄧ數褰辩殑銆?浠栦滑璇?#65292;杩欎簺閮芥槸钀ラ攢涓嶅ソ&amp;#65292;瑕佸己浜庤惀閿€&amp;#65292;浠栦滑鐨勫叕鍙稿钀ラ攢鏈夊績寰?#65292;浣犵湅&amp;#65292;姣斿浣犺繖鏈€?988鎴戞兂鍜岃繖涓笘鐣岃皥璋堛€?#65292;杩欏悕瀛楀氨涓嶈&amp;#65292;鍜卞叕鍙告綔蹇冪爺绌?#65292;鍙戠幇涓€涓寰?#65292;澶у崠鐢靛奖閮芥槸涓や釜瀛?#65292;涓変釜瀛?#65292;鍥涗釜瀛?#65292;浣犺繖涓鏀瑰悕鎴愨€滄垜鎯宠皥鈥?#65292;绁ㄦ埧灏卞ぇ鐖嗐€傚摝&amp;#65292;杩樿鎵鹃綈涓冧釜鍏冪礌銆?
+鎴戣寰椾粬涓€瀹氫細鐖辩湅銆婁竷榫欑彔銆嬬殑銆?
+
+
+涓€澶滀箣闂?#65292;韬竟鐨勬枃鍖栦汉浠兘鍦ㄨ鐢靛奖鐞嗘兂銆?
+鎴戝叾瀹炰竴鐩翠笉鍠滄鈥滅數褰辩悊鎯斥€濆洓涓瓧銆傚洜涓虹粷澶ч儴鍒嗙殑鏂囧寲浜?#65292;瀵圭數褰遍兘鏄劅鍏磋叮鍜屽瓨鐞嗘兂鐨?#65292;灏卞儚濂冲浠ぇ澶氭兂寮€鍜栧暋棣嗕竴鏍枫€傚湪杩欑鎯呭喌涓?#65292;鈥滅數褰辩悊鎯斥€濇棭宸茬粡绠椾笉寰楁槸浠€涔堜笢瑗?#65292;鐢靛奖鎬佸害涓庣數褰辫兘鍔涙墠鏄噸瑕佺殑銆?
+
+
+璇村洖銆婂悗浼氭棤鏈熴€?#65292;杩欓儴鐢靛奖鐨勫埗鐗囧叕鍙告槸鍔抽浄褰变笟&amp;#65292;鎰熻阿鍒剁墖浜鸿€佹柟澶氬勾鏉ョ殑鏀寔&amp;#65292;鎰熻阿鍓х粍閲屼负杩欓儴鐢靛奖涓庢垜涓€璧峰娉㈢殑鏈嬪弸浠?#65292;涔熻鎰熻阿澶氬勾鍓嶅ソ鍙嬬綏鍏堢敓&amp;#65292;鏉ㄥコ澹殑淇′换涓庡府蹇?#65288;寮€鏈洪キ閮借繕娌″悆鎬庝箞璇寸殑璺熻幏濂栨劅瑷€浼肩殑鈥︹€?#65289;銆備竴杩囨柊骞存垜浠氨浼氬紑鏈?#65292;婕斿憳闃靛浼氬湪&lt;/span&gt;&lt;div STYLE="min-height:22px"&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;
+鏈夋湅鍙嬭寰椼€婂悗浼氭棤鏈熴€嬪繀瀹氭槸涓笉閿欑殑鐢靛奖&amp;#65292;涔熸湁浜鸿寰楄偗瀹氱儌鎴愭福&amp;#65292;杩欎簺閮戒笉閲嶈&amp;#65292;鍋氬嚭鏉ュ墠鐢氳嚦涓婃槧涔嬪悗&amp;#65292;鎴戣嚜宸遍兘涓嶄細鍋氬お澶氳瘎浠?#65292;閭ｆ槸浠栦汉鐨勪簨鎯呫€備絾鏈変汉缁欐垜鍙戠煭淇¤娆ｈ祻鎴?#65292;鎯冲仛灏卞幓鍋氫簡&amp;#65292;娼囨磼&amp;#65292;鐘€鍒?#65292;涔冩槸璇磋蛋灏辫蛋鐨勬梾琛屻€傛垜鍏跺疄涓嶈禐鍚屻€?/DIV&gt;
+&lt;span class='MASSf21674ffeef7'&gt;
+
+杩欎簺澶?#65292;涓嶅皯鏈嬪弸鍜屽獟浣撴潵闂叧浜庛€婂悗浼氭棤鏈熴€嬬殑鎯呭喌&amp;#65292;鍐欎竴绡囩煭鏂?#65292;鍛婅瘔澶у涓€浜涙晠浜嬪拰鎯虫硶銆?
+
+
+宸笉澶氫簲骞村墠&amp;#65292;鎴戞瀯鎬濅簡涓€涓墽鏈?#65292;鎯宠嚜宸卞婕斾竴閮ㄧ數褰?#65292;浜庢槸寰€杩斿悇涓煄甯傚鎵炬姇璧勬柟銆傛垜鐨勬兂娉曞拰褰撳勾寮€濮嬭禌杞︽椂涓€鏍?#65292;鑷繁鐨勭増绋庡姞鎶曡祫鏂圭殑涓€閮ㄥ垎閽卞氨鍙互寮€骞蹭簡銆傚綋鏃剁殑鐢靛奖甯傚満杩樻病鏈変粖鏃ラ偅涔堢伀鐑?#65292;鎵€浠ュ悇鏂归潰閮戒笉澶垚鐔熴€備竴骞村悗&amp;#65292;鎴戞妸杩欎釜鏁呬簨鍐欐垚浜嗗皬璇村嚭鐗?#65292;閭ｆ湰灏忚灏辨槸銆婁粬鐨勫浗銆嬨€?
+
+
+鐒跺悗鏄笁骞村鍓?#65292;鎴戝張鏋勬€濅簡涓€涓墽鏈?#65292;杩樻槸鎯宠嚜宸卞婕旇繖涓晠浜?#65292;鍙堝線杩斿悇涓煄甯傚拰涓嶅皯浜鸿皥銆傚綋鏃剁數褰卞競鍦烘棩娓愮孩鐏?#65292;鏂板婕斾篃鏈変簡鏇村鐨勭┖闂?#65292;鏃犲杩欎釜鏁呬簨鏈韩绋嶆晱鎰?#65292;鎵€浠ヨ繕鏄病鏈夋垚鍔熴€傛垜鍙堟妸杩欎釜鏁呬簨鍐欐垚灏忚鍑虹増&amp;#65292;閭ｆ湰灏忚灏辨槸銆?988鎴戞兂鍜岃繖涓笘鐣岃皥璋堛€嬨€?
+
+
+鐢靛奖涓庡嚭鐗堜笉涓€鏍?#65292;鎴戝啓涓€鏈功&amp;#65292;鏃犺鍗栧灏?#65292;鎴戝拰鍑虹増鍟嗛兘涓嶄細浜?#65292;鏃犻潪璧氬鎴栬€呰禋灏戙€傜數褰辫嫢鏄儭鏉ユ垨鑰呭洶椤垮湪瀵兼紨鏈汉鐨勪竴浜涗釜浜烘儏缁撻噷&amp;#65292;寰堝鏄撳浜哄宸便€傛垜渚濈劧鍦ㄧ（纾ㄥ敡鍞у仛鐫€鍓ф湰銆備絾鍘诲勾鐢靛奖甯傚満鐏垎&amp;#65292;灏ゅ叾鏄柊瀵兼紨妯┖鍑轰笘&amp;#65292;鏉ユ壘鎴戞媿鐢靛奖鐨勪汉绐佺劧鍓у銆?
+
+
+鍏朵腑鏈夊嚑涓湅鍙嬪緢涓嶉敊&amp;#65292;鐩歌皥鐢氭&amp;#65292;鎴戝鍒颁笉灏?#65292;浣嗘洿澶氫汉鏄敤鎸栫叅鎸栫熆鐨勭粡楠屽湪瀵瑰緟褰辫銆傛湁璇锋垜婕旀垙鐨?#65292;鎶婃垜璇寸殑鏂囪兘鎺ц悵鑾夋鑳芥垬褰卞笣&amp;#65292;鎴戝綋鐒跺彧鑳藉鎷?#65292;鏇村鏄鎴戝婕旂數褰辩殑&amp;#65292;寰堝浜洪兘鏄甫鐫€浣犳媿浠€涔堜笉閲嶈鍙嶆鎴戞妸閽辨媿妗屼笂浜嗙殑璞皵鑰屾潵銆傚墿涓嬪垯鏄棶鎴戞湁浠€涔堥」鐩粙缁?#65292;鐢氳嚦杩炴垜杩滄埧浜叉垰瀹跺紑鍏婚浮鍦虹殑閭诲眳閮借瑕佹姇褰辫&amp;#65292;鍘熷洜灏辨槸璧氶挶&amp;#65292;椋庡厜&amp;#65292;娌℃湁绂芥祦鎰熴€?
+
+
+浠栦滑鐪奸噷閮藉彧鏈夌洿涓婁簯闇勭殑椋庡厜&amp;#65292;浼间箮娌′汉鑰冭檻杩囩洿鍧犳繁娓婄殑鎯ㄧ姸&amp;#65292;閭ｄ簺鎶婁竴涓叕鍙歌禂鐮翠骇鐨?#65292;鐢氳嚦杩為櫌绾块兘涓婁笉浜嗙殑鐢靛奖濂藉儚浠庢潵涓嶅瓨鍦?#65292;寮€鍙ｉ棴鍙ｉ兘鍙湁鈥滄嘲鍥р€?鈥滆タ娓糕€濃€滆嚧闈掓槬鈥濃€滃悎浼欎汉鈥濄€傚叾涓緢澶氫汉瀵圭數褰辩殑&lt;/span&gt;&lt;div STYLE="min-height:22px"&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;
+涓栦笂铏界劧娌℃湁瀹屽叏鐨勫噯澶囧厖鍒?#65292;浣嗗繀椤昏鏈夊噯澶囦笌绉疮鐨?#65292;鍜变笉鑳藉彧鐪嬭浜哄椋炲湪澶╀笂鍚冭倝鐨勬牱瀛愯€屽拷瑙嗕汉瀹惰韪╁湪鍦颁笅鍚冨睅鐨勬棩瀛愩€傞偅浜涘彇寰楀法澶ф垚鍔熺殑鏂板婕斾滑涓嶆槸澶╀笂鎺変笅鏉ョ殑&amp;#65292;鑰屾槸娉ラ噷璧拌繃鏉ョ殑銆傝繖涔堝骞翠簡&amp;#65292;鎴戜篃涓€鐩村湪瀛︿範&amp;#65292;鍐欏畬杩欎簺&amp;#65292;涓撳績寮€宸ュ幓&amp;#65292;甯屾湜鎴愮墖涓嶈礋澶у&amp;#65292;鏇翠笉璐熻嚜宸便€?/DIV&gt;
+&lt;span class='MASSf21674ffeef7'&gt;鐞嗚В闈炲父鏈夋剰鎬?#65292;瑕佹槸鏃佷汉璺繃鍚嚑鑰?#65292;杩樹互涓鸿皥鐨勬槸鍖栧&amp;#65292;灏芥槸鈥滃厓绱犫€?#65292;瑙夊緱鐢靛奖灏辨槸鍒楀嚭涓€涓厓绱犺〃&amp;#65292;
+鐒跺悗寰€閲屽～涓滆タ鍐嶅姞涓€浜涜繃鏃剁殑缃戠粶娈靛瓙灏辫兘鎴愬姛&amp;#65292;鍦ㄦ湁浜虹湅鏉?#65292;鎵€璋撶數褰?#65292;鎽囪噦鍗囪捣灏辨槸瀹忓ぇ&amp;#65292;涔辩潃鍙欎簨灏辨槸鏂伴&amp;#65292;鍓鎴愭福灏辨槸鍓嶅崼&amp;#65292;鍗囨牸鐗瑰啓灏辨槸缁嗚吇&amp;#65292;鍠滃墽鐗囧氨鏄妸鑴歌创鍒伴暅澶翠笂婕旀垙&amp;#65292;闈掓槬鐗囧氨鏄獞鑷杞﹀紶寮€鍙岃噦&amp;#65292;鏃犺鎷嶄粈涔?#65292;棰勬湡閮芥槸浜斾嚎銆?
+
+
+杩樻湁浜哄鎴戣&amp;#65292;瀵规垜鐨勯鏈熸洿楂?#65292;鎴戝畾鑳芥嬁涓冧嚎绁ㄦ埧&amp;#65292;鍙鎴戞壘榻愪粬鍙ｄ腑鐨勪竷涓厓绱犮€傛垜鎵撴柇浜嗕粬&amp;#65292;鎶婇偅浜涙墍璋撶殑鈥滃厓绱犫€濇眹鑱氫絾闈炲父澶辫触鐨勭數褰卞垪涓惧嚭鏉?#65292;骞朵竴鍐嶆彁閱?#65292;鍑粈涔堜綘灏辫寰楁垜涓嶄細鎼炵牳&amp;#65292;鎵€璋撳井鍗氱矇涓濅箣绫荤殑閮芥槸绌虹殑&amp;#65292;鏄棤娉曡浆鎹㈢殑&amp;#65292;涓€涓汉鍐嶇伀&amp;#65292;鍑犲崄涓囬搧鏉嗙矇涓濇渶澶氫簡&amp;#65292;濡傛灉鐗囧瓙涓嶅ソ&amp;#65292;鏄棤娉曟敮鎾戣捣涓€閮ㄧ數褰辩殑銆?浠栦滑璇?#65292;杩欎簺閮芥槸钀ラ攢涓嶅ソ&amp;#65292;瑕佸己浜庤惀閿€&amp;#65292;浠栦滑鐨勫叕鍙稿钀ラ攢鏈夊績寰?#65292;浣犵湅&amp;#65292;姣斿浣犺繖鏈€?988鎴戞兂鍜岃繖涓笘鐣岃皥璋堛€?#65292;杩欏悕瀛楀氨涓嶈&amp;#65292;鍜卞叕鍙告綔蹇冪爺绌?#65292;鍙戠幇涓€涓寰?#65292;澶у崠鐢靛奖閮芥槸涓や釜瀛?#65292;涓変釜瀛?#65292;鍥涗釜瀛?#65292;浣犺繖涓鏀瑰悕鎴愨€滄垜鎯宠皥鈥?#65292;绁ㄦ埧灏卞ぇ鐖嗐€傚摝&amp;#65292;杩樿鎵鹃綈涓冧釜鍏冪礌銆?
+鎴戣寰椾粬涓€瀹氫細鐖辩湅銆婁竷榫欑彔銆嬬殑銆?
+
+
+涓€澶滀箣闂?#65292;韬竟鐨勬枃鍖栦汉浠兘鍦ㄨ鐢靛奖鐞嗘兂銆?
+鎴戝叾瀹炰竴鐩翠笉鍠滄鈥滅數褰辩悊鎯斥€濆洓涓瓧銆傚洜涓虹粷澶ч儴鍒嗙殑鏂囧寲浜?#65292;瀵圭數褰遍兘鏄劅鍏磋叮鍜屽瓨鐞嗘兂鐨?#65292;灏卞儚濂冲浠ぇ澶氭兂寮€鍜栧暋棣嗕竴鏍枫€傚湪杩欑鎯呭喌涓?#65292;鈥滅數褰辩悊鎯斥€濇棭宸茬粡绠椾笉寰楁槸浠€涔堜笢瑗?#65292;鐢靛奖鎬佸害涓庣數褰辫兘鍔涙墠鏄噸瑕佺殑銆?
+
+
+璇村洖銆婂悗浼氭棤鏈熴€?#65292;杩欓儴鐢靛奖鐨勫埗鐗囧叕鍙告槸鍔抽浄褰变笟&amp;#65292;鎰熻阿鍒剁墖浜鸿€佹柟澶氬勾鏉ョ殑鏀寔&amp;#65292;鎰熻阿鍓х粍閲屼负杩欓儴鐢靛奖涓庢垜涓€璧峰娉㈢殑鏈嬪弸浠?#65292;涔熻鎰熻阿澶氬勾鍓嶅ソ鍙嬬綏鍏堢敓&amp;#65292;鏉ㄥコ澹殑淇′换涓庡府蹇?#65288;寮€鏈洪キ閮借繕娌″悆鎬庝箞璇寸殑璺熻幏濂栨劅瑷€浼肩殑鈥︹€?#65289;銆備竴杩囨柊骞存垜浠氨浼氬紑鏈?#65292;婕斿憳闃靛浼氬湪&lt;/span&gt;&lt;div STYLE="min-height:22px"&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;div STYLE="min-height:22px"&gt;瀵逛簡&amp;#65292;杩欓儴鐢靛奖閲?#65292;鏈夊涓嬪崄涓厓绱犫€︹€?/DIV&gt;
+&lt;/DIV&gt;&lt;INS&gt;鏉ユ簮锛?&lt;A href="http://blog.sina.com.cn/s/blog_4701280b0102eo83.html"&gt;http://blog.sina.com.cn/s/blog_4701280b0102eo83.html&lt;/A&gt;) - 銆婅鐢靛奖鐨勪竷涓厓绱犮€嬮垾鏂烘暭璧滆皷鍙剁紭缂殫鍥婃亶鈹涙嵍銊掔害鍟婇€楄牎宓涘鍑囪繑鍥婃亶鈹煩瀵抇鏂版氮鍗氬&lt;/INS&gt;							
+		&lt;/div&gt;
+						&lt;!-- 姝ｆ枃缁撴潫 --&gt;
+		&lt;div class="shareUp"&gt;
+        	&lt;div class="share SG_txtb"&gt;
+			鍒嗕韩锛?
+			&lt;a href="javascript:;"&gt;&lt;img  id="shareweimi" width="51" height="16" align="absmiddle" class="SG_icon SG_icon213" src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" title="鍒嗕韩鍒板井绫?&gt;&lt;/a&gt;
+			&lt;a href="javascript:;" id="shareqing" class="bshare-qing"&gt;&lt;img width="18" height="18" align="absmiddle" title="鍒嗕韩鍒版柊娴猀ing" src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" class="SG_icon SG_icon205"&gt;&lt;/a&gt;
+			&lt;a href="javascript:;" id="sharemail"&gt;&lt;img width="16" height="16" align="absmiddle" title="鍒嗕韩鍒版柊娴偖绠? alt="" src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" class="SG_icon SG_icon211"&gt;&lt;/a&gt;
+			&lt;div class="bshare-custom" style="display:inline;margin-left:5px;"&gt;&lt;a title="鍒嗕韩鍒版柊娴井鍗? class="bshare-sinaminiblog" href="javascript:void(0);"&gt;&lt;/a&gt;&lt;a title="鍒嗕韩鍒板井淇? class="bshare-weixin" href="javascript:void(0);"&gt;&lt;/a&gt;&lt;a title="鍒嗕韩鍒癚Q濂藉弸" class="bshare-qqim" href="javascript:void(0);"&gt;&lt;/a&gt;&lt;a title="鍒嗕韩鍒颁汉浜虹綉" class="bshare-renren" href="javascript:void(0);"&gt;&lt;/a&gt;&lt;a title="鍒嗕韩鍒癚Q绌洪棿" class="bshare-qzone" href="javascript:void(0);"&gt;&lt;/a&gt;&lt;a title="鍒嗕韩鍒拌眴鐡? class="bshare-douban" href="javascript:void(0);"&gt;&lt;/a&gt;&lt;a title="鏇村骞冲彴" class="bshare-more bshare-more-icon more-style-addthis"&gt;&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;/div&gt;
+            &lt;div class="up"&gt;
+	        	&lt;div title="鍠滄鍚庤鏇村浜虹湅鍒? id="dbox_4701280b0102eo83" class="upBox" style="cursor: pointer;"&gt;
+	            	&lt;p ti_title="銆婅鐢靛奖鐨勪竷涓厓绱犮€嬧€斺€斿叧浜庢垜瀵圭數褰辩殑涓€浜涚湅娉曚互鍙娿€婂悗浼氭棤鏈熴€嬬殑涓€浜涙秷鎭? id="dbox2_4701280b0102eo83" class="count" &gt;&lt;/p&gt;
+	                &lt;p class="link"&gt;&lt;img width="15" height="15" align="absmiddle" src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" class="SG_icon SG_icon34"&gt;鍠滄&lt;/p&gt;
+	            &lt;/div&gt;
+	        &lt;/div&gt;
+            &lt;div class="clearit"&gt;&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="articalInfo"&gt;
+			&lt;!-- 鍒嗕韩鍒板井鍗?{$t_blog} --&gt;
+			&lt;div class="IL"&gt;
+				闃呰&lt;span id="r_4701280b0102eo83" class="SG_txtb"&gt;&lt;/span&gt;&lt;em class="SG_txtb"&gt;鈹?/em&gt; 
+				&lt;a href="#commonComment"&gt;璇勮&lt;/a&gt; &lt;span id="c_4701280b0102eo83" class="SG_txtb"&gt;&lt;/span&gt;&lt;em class="SG_txtb"&gt;鈹?/em&gt;				&lt;a href="javascript:;" onclick="$articleManage('4701280b0102eo83',5);return false;"&gt;鏀惰棌&lt;/a&gt;&lt;span id="f_4701280b0102eo83"  class="SG_txtb"&gt;&lt;/span&gt;
+				&lt;em class="SG_txtb"&gt;鈹?/em&gt;&lt;a href="#" id="quote_set_sign" onclick="return false ;"&gt;杞浇&lt;/a&gt;&lt;a  href="#" id="z_4701280b0102eo83" onclick="return false ;" class="zznum"&gt;&lt;/a&gt;				&lt;span id="fn_銆婅鐢靛奖鐨勪竷涓厓绱犮€嬧€斺€斿叧浜庢垜瀵圭數褰辩殑涓€浜涚湅娉曚互鍙娿€婂悗浼氭棤鏈熴€嬬殑涓€浜涙秷鎭? class="SG_txtb"&gt;&lt;/span&gt;&lt;em class="SG_txtb"&gt;鈹?/em&gt;
+				&lt;a onclick="return false;" href="javascript:;" &gt;&lt;cite id="d1_digg_4701280b0102eo83"&gt;鍠滄&lt;/cite&gt;&lt;/a&gt;&lt;a id="d1_digg_down_4701280b0102eo83" href="javascript:;" &gt;&lt;b&gt;鈻?/b&gt;&lt;/a&gt;
+									&lt;em class="SG_txtb"&gt;鈹?/em&gt;&lt;a href="http://blog.sina.com.cn/main_v5/ria/print.html?blog_id=blog_4701280b0102eo83" target="_blank"&gt;鎵撳嵃&lt;/a&gt;&lt;em class="SG_txtb"&gt;鈹?/em&gt;&lt;a id="q_4701280b0102eo83" onclick="report('4701280b0102eo83');return false;" href="#"&gt;涓炬姤&lt;/a&gt;
+											&lt;/div&gt;
+			&lt;div class="IR"&gt;
+				&lt;table&gt;
+					&lt;tr&gt;
+										&lt;/tr&gt;
+									&lt;/table&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="clearit"&gt;&lt;/div&gt;
+		&lt;div class="blogzz_zzlist borderc" id="blog_quote" style="display:none"&gt;鍔犺浇涓紝璇风◢鍊?.....&lt;/div&gt;
+		&lt;div class="articalfrontback SG_j_linedot1 clearfix" id="new_nextprev_4701280b0102eo83"&gt;
+							&lt;div&gt;&lt;span class="SG_txtb"&gt;鍓嶄竴绡囷細&lt;/span&gt;&lt;a href="http://blog.sina.com.cn/s/blog_4701280b0102elmo.html"&gt;2013骞?9鏈?7鏃?/a&gt;&lt;/div&gt;
+										&lt;div&gt;&lt;span class="SG_txtb"&gt;鍚庝竴绡囷細&lt;/span&gt;&lt;a href="http://blog.sina.com.cn/s/blog_4701280b0102eohi.html"&gt;.&lt;/a&gt;&lt;/div&gt;
+					&lt;/div&gt;
+		&lt;div class="clearit"&gt;&lt;/div&gt;
+							
+		&lt;div id="loginFollow"&gt;&lt;/div&gt;
+				&lt;div class="allComm"&gt;
+			&lt;div  class="allCommTit" &gt;
+				&lt;div class="SG_floatL"&gt;
+				    &lt;strong&gt;璇勮&lt;/strong&gt;
+				    &lt;span id="commAd_1" style="display:none;"&gt;
+				        &lt;span style="margin-left:15px; width:220px; display:inline-block;"&gt;&lt;a target="_blank" href="http://blog.sina.com.cn/lm/8/2009/0325/105340.html"&gt;閲嶈鎻愮ず锛氳鎯曡櫄鍋囦腑濂栦俊鎭?/a&gt;&lt;/span&gt;
+						&lt;span style="margin:0 60px 0 20px; display:inline-block;"&gt;|&lt;/span&gt;
+						&lt;span id="comm_SLOT_63"&gt;&lt;/span&gt;
+				    &lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div class="SG_floatR"&gt;&lt;a class="CP_a_fuc" href="#post"&gt;[&lt;cite&gt;鍙戣瘎璁?/cite&gt;]&lt;/a&gt;&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;ul id="article_comment_list" class="SG_cmp_revert"&gt;&lt;!-- 寰幆濮?--&gt;&lt;li&gt;璇勮鍔犺浇涓紝璇风◢鍊?..&lt;/li&gt;&lt;!-- 寰幆缁? --&gt;&lt;/ul&gt;
+			&lt;div class="clearit"&gt;&lt;/div&gt;
+			&lt;div class="myCommPages SG_j_linedot1"&gt;
+				&lt;div class="SG_page" id="commentPaging" style="display:none;"&gt;
+					&lt;ul class="SG_pages"&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+				&lt;div class="clearit"&gt;&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;a name="post"&gt;&lt;/a&gt;
+			&lt;div class="writeComm"&gt;
+				&lt;div class="allCommTit"&gt;
+					&lt;div class="SG_floatL"&gt;
+					    &lt;strong&gt;鍙戣瘎璁?/strong&gt;
+					    &lt;span id="commAd_2" style="display:none;"&gt;
+					    &lt;span id="comm_SLOT_64" style="margin-left:15px; width:220px; display:inline-block;"&gt;&lt;/span&gt;
+					    &lt;span style="margin:0 60px 0 20px; display:inline-block;"&gt;|&lt;/span&gt;
+					    &lt;span id="comm_SLOT_65"&gt;&lt;/span&gt;
+					    &lt;/span&gt;
+					    &lt;span&gt;&lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div class="SG_floatR"&gt;&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="wrCommTit"&gt;
+					&lt;div class="SG_floatL" id="commentNick" style="display:none;"&gt;&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="formTextarea"&gt;
+					&lt;div style="float:left;" id="commonComment"&gt;
+					&lt;iframe id="postCommentIframe"  frameborder="0" style="border:1px solid #C7C7C7;
+		height:158px;width:448px;maring-top:1px;background-color:white;" src="http://blog.sina.com.cn/main_v5/ria/blank2.html"&gt;&lt;/iframe&gt;
+					&lt;textarea id="commentArea" tabindex="1" style="display:none;"&gt;&lt;/textarea&gt;
+					&lt;/div&gt;
+					&lt;div id="mobileComment" style="float:left;display:none;"&gt;
+						&lt;textarea id="mbCommentTa" style="width:438px;height:150px;border:1px solid #C7C7C7;line-height:18px;padding:5px;"&gt;&lt;/textarea&gt;
+					&lt;/div&gt;
+					&lt;div class="faceblk" id="faceWrap"&gt;
+						&lt;div id="smilesSortShow" class="faceline1"&gt;
+						&lt;/div&gt;
+						&lt;ul id="smilesRecommended" class="faceline01"&gt;&lt;/ul&gt;
+					&lt;/div&gt;
+					&lt;div class="clearit"&gt;&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="formLogin"&gt;
+					&lt;div class="SG_floatL"&gt; 
+					&lt;p id="commentlogin" style="display:none;"&gt;&lt;span&gt;鐧诲綍鍚嶏細&lt;/span&gt;&lt;input type="text" style="width: 115px;" id="login_name" tabindex="2"/&gt;   &lt;span&gt;瀵嗙爜锛?/span&gt;&lt;input type="password" style="width: 115px;" id="login_pass" tabindex="3"/&gt;   &lt;a href="http://login.sina.com.cn/getpass.html" target="_blank"&gt;鎵惧洖瀵嗙爜&lt;/a&gt;   &lt;a href="http://login.sina.com.cn/signup/signup.php?entry=blog&amp;src=blogicp&amp;srcuid=1191258123" target="_blank"&gt;娉ㄥ唽&lt;/a&gt;	&lt;input type="checkbox" id="login_remember"/&gt;&lt;label for="login_remember" style="display:inline-block;" title="寤鸿鍦ㄧ綉鍚?鍏敤鐢佃剳涓婂彇娑堣閫夐」"&gt;璁颁綇鐧诲綍鐘舵€?/label&gt;&lt;/p&gt;&lt;p id="commentloginM" style="display:none;"&gt;&lt;span&gt;鏄?nbsp;&amp;nbsp;&amp;nbsp;绉帮細&lt;/span&gt;&lt;input type="text" style="width: 115px;" id="comment_anonyous"  value="鏂版氮缃戝弸"/ tabindex="2" disabled&gt;&lt;/p&gt;&lt;p id="quote_comment_p"&gt;&lt;input type="checkbox" id="bb"&gt; &lt;label for="bb"&gt;&lt;img height="18" align="absmiddle" width="18" title="" src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" class="SG_icon SG_icon110"&gt;鍒嗕韩鍒板井鍗?&lt;img height="15" align="absmiddle" width="15" title="鏂? src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" class="SG_icon SG_icon11"&gt;&lt;/label&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input type="checkbox" id="cbCommentQuote" /&gt;&lt;label for="cbCommentQuote"&gt;璇勮骞惰浆杞芥鍗氭枃&lt;/label&gt;&lt;img class="SG_icon SG_icon11" src="http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif" width="15" height="15" title="鏂? align="absmiddle" /&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;楠岃瘉鐮侊細&lt;/span&gt;&lt;input type="text" style="width: 46px;" id="login_check" tabindex="4" onclick="return false;"/&gt;  &lt;a class="SG_linka" id='check_show'&gt;璇风偣鍑诲悗杈撳叆楠岃瘉鐮?/a&gt;&lt;img id="comment_check_img" align="absmiddle"  style="display:none;"/&gt;  &lt;a id="comment_get_vcode" href="#" onclick="return false;"&gt;鏀跺惉楠岃瘉鐮?/a&gt;&lt;/p&gt;
+					&lt;/div&gt;
+
+					&lt;span style="display: none; color: rgb(153, 153, 153); margin-left: 10px;" id="login_remember_caution"&gt;&lt;/span&gt;
+
+											&lt;div class="SG_floatR" id="anonymity_cont"&gt;&lt;input type="checkbox" id="anonymity"/&gt;&lt;label for="anonymity"&gt;鍖垮悕璇勮&lt;/label&gt;&lt;/div&gt;
+									&lt;/div&gt;
+				&lt;div class="formBtn"&gt;
+					&lt;a href="javascript:;" onclick="return false;" class="SG_aBtn" tabindex="5"&gt;&lt;cite id="postcommentid"&gt;鍙戣瘎璁?/cite&gt;&lt;/a&gt;
+					&lt;p class="SG_txtc"&gt;浠ヤ笂缃戝弸鍙戣█鍙唬琛ㄥ叾涓汉瑙傜偣锛屼笉浠ｈ〃鏂版氮缃戠殑瑙傜偣鎴栫珛鍦恒€?/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+				&lt;div class="clearit"&gt;&lt;/div&gt;
+		
+				&lt;div class="articalfrontback articalfrontback2 clearfix"&gt;
+						  &lt;div class="SG_floatL"&gt;&lt;span class="SG_txtb"&gt;&amp;lt;&amp;nbsp;鍓嶄竴绡?/span&gt;&lt;a href="http://blog.sina.com.cn/s/blog_4701280b0102elmo.html"&gt;2013骞?9鏈?7鏃?/a&gt;&lt;/div&gt;
+									  &lt;div class="SG_floatR"&gt;&lt;span class="SG_txtb"&gt;鍚庝竴绡?nbsp;&amp;gt;&lt;/span&gt;&lt;a href="http://blog.sina.com.cn/s/blog_4701280b0102eohi.html"&gt;.&lt;/a&gt;&lt;/div&gt;
+					&lt;/div&gt;
+		&lt;div class="clearit"&gt;&lt;/div&gt;
+				
+	&lt;/div&gt;
+	&lt;!--鍗氭枃姝ｆ枃 end --&gt;
+		&lt;script type="text/javascript"&gt;
+			var voteid="";
+		&lt;/script&gt;
+
+            &lt;/div&gt;       
+            &lt;div class="SG_connFoot"&gt;&lt;/div&gt;
+          &lt;/div&gt;
+&lt;/div&gt;
+	&lt;!--绗簩鍒梥tart--&gt;
+	
+	&lt;!--绗笁鍒梥tart--&gt;
+	&lt;div id="column_3" class="SG_colWnone"&gt;&lt;div style="width:0px;height:0.1px;margin:0px;"&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;
+	&lt;!--绗笁鍒梕nd--&gt;
+
+	
+    &lt;/div&gt;
+   &lt;!--涓婚鍐呭缁撴潫 --&gt;
+  
+
+	&lt;div id="diggerFla" style="position:absolute;left:0px;top:0px;width:0px"&gt;&lt;/div&gt;
+    &lt;div class="sinablogfooter" id="sinablogfooter"  style="position:relative;"&gt;
+      
+      &lt;p class="SG_linka"&gt;&lt;a href="http://control.blog.sina.com.cn/admin/advice/advice_list.php" target="_blank"&gt;鏂版氮BLOG鎰忚鍙嶉鐣欒█鏉?/a&gt;銆€&lt;a href="javascript:;" onclick="window.open ('http://control.blog.sina.com.cn/admin/advice/impeach.php?url=http%3A//blog.sina.com.cn/s/blog_4cf7b4ec0100eudp.html%3Ftj%3D1', '','height=495, width=510, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no');"&gt;涓嶈壇淇℃伅鍙嶉&lt;/a&gt;銆€鐢佃瘽锛?006900000 鎻愮ず闊冲悗鎸?閿紙鎸夊綋鍦板競璇濇爣鍑嗚璐癸級銆€娆㈣繋鎵硅瘎鎸囨&lt;/p&gt;
+   
+      &lt;p class="SG_linka"&gt;&lt;a href="http://corp.sina.com.cn/chn/" target="_blank"&gt;鏂版氮绠€浠?/a&gt; | &lt;a href="http://corp.sina.com.cn/eng/" target="_blank"&gt;About Sina&lt;/a&gt; | &lt;a href="http://emarketing.sina.com.cn/" target="_blank"&gt;骞垮憡鏈嶅姟&lt;/a&gt; | &lt;a href="http://www.sina.com.cn/contactus.html" target="_blank"&gt;鑱旂郴鎴戜滑&lt;/a&gt; | &lt;a href="http://corp.sina.com.cn/chn/sina_job.html" target="_blank"&gt;鎷涜仒淇℃伅&lt;/a&gt; | &lt;a href="http://www.sina.com.cn/intro/lawfirm.shtml" target="_blank"&gt;缃戠珯寰嬪笀&lt;/a&gt; | &lt;a href="http://english.sina.com" target="_blank"&gt;SINA English&lt;/a&gt; | &lt;a href="http://members.sina.com.cn/apply/" target="_blank"&gt;浼氬憳娉ㄥ唽&lt;/a&gt; | &lt;a href="http://help.sina.com.cn/" target="_blank"&gt;浜у搧绛旂枒&lt;/a&gt; &lt;/p&gt;
+      &lt;p class="copyright SG_linka"&gt; Copyright &amp;copy; 1996 - 2014 SINA Corporation,  All Rights Reserved&lt;/p&gt;
+      &lt;p class="SG_linka"&gt; 鏂版氮鍏徃 &lt;a href="http://www.sina.com.cn/intro/copyright.shtml" target="_blank"&gt;鐗堟潈鎵€鏈?/a&gt;&lt;/p&gt;
+	  &lt;a href="http://www.bj.cyberpolice.cn/index.jsp"  target="_blank" class="gab_link"&gt;&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="swfbox"&gt;&lt;/div&gt;
+&lt;script id="PVCOUNTER_FORIE" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;script type="text/javascript"&gt;
+var scope = {
+    $newTray : 1,
+    $setDomain : true,
+    $uid : "1191258123",
+    $PRODUCT_NAME : "blog7",      //blog7photo,blog7icp
+    $pageid : "article",
+    $key :  "fb3627d6695dd5e46aa10213c88f3107",
+    $uhost : "twocold",
+    $ownerWTtype :"0",
+    $private: {"cms":0,"hidecms":0,"blogsize":0,"ad":1,"sms":0,"adver":0,"tj":1,"p4p":0,"spamcms":1,"topblogid":0,"pageset":0,"invitationset":0,"top":0,"t_sina":1191258123,"oauth_token":1,"oauth_token_secret":1,"uname":"\u97e9\u5bd2","p_push_t":1,"p_get_t":1,"uid":1191258123,"unbind":"1"},
+    $is_photo_vip:0,
+		 $nClass:0,
+		 $articleid:"4701280b0102eo83",
+		 $sort_id:117,
+		 $cate_id:187,
+		 $isCommentAllow:0,
+		 $album_pic:"",
+		 $pn_x_rank:16,
+		 $x_quote_c:"581",
+		 $flag2008:"",
+		     component_lists:{"2":{"size":730,"list":[920]},"1":{"size":210,"list":[901,946,912,910,909,911,903,904]}},
+    formatInfo:1,
+    UserPic:[{"pid":"4701280bxc88636eb3de3","repeat":"no-repeat","align-h":"center","align-v":"top","apply":"1"},{"pid":"","repeat":"repeat-x","align-h":"center","align-v":"top","apply":"0"},{"pid":"4701280bxc8863752010b","repeat":"no-repeat","align-h":"center","align-v":"top","apply":"1"}],
+    UserBabyPic:{"photoX":0,"photoY":0,"photoURL":null,"angle":0,"zoom":0,"maskX":0,"maskY":0,"maskURL":null,"frameURL":null},
+    UserColor:1,
+    backgroundcolor:"rgb(160, 160, 160)",
+    tpl:"32_1",
+    reclist:0    };
+var $encrypt_code = "152e244fcf271078a71849498b0e838a";
+&lt;/script&gt;
+
+&lt;script type="text/javascript" src="http://sjs.sinajs.cn/blog7common/js/boot.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;__load_js();&lt;/script&gt;
+&lt;script type="text/javascript"&gt;__render_page();&lt;/script&gt;
+
+
+&lt;script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;amp;uuid=b436f96b-ce3c-469f-93ca-9c0c406fcf10&amp;amp;pophcol=2&amp;amp;lang=zh"&gt;&lt;/script&gt;&lt;script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" charset="utf-8"&gt;
+        bShare.addEntry({pic: "", title:"鍒嗕韩鑷煩瀵? 銆娿€婅鐢靛奖鐨勪竷涓厓绱犮€嬧€斺€斿叧浜庢垜瀵圭數褰辩殑涓€浜涚湅娉曚互鍙娿€婂悗浼氭棤鏈熴€嬬殑涓€浜涙秷鎭€?, summary:"  杩欎簺澶╋紝涓嶅皯鏈嬪弸鍜屽獟浣撴潵闂叧浜庛€婂悗浼氭棤鏈熴€嬬殑鎯呭喌锛屽啓涓€绡囩煭鏂囷紝鍛婅瘔澶у涓€浜涙晠浜嬪拰鎯虫硶銆?   宸?..  (鏉ヨ嚜 @澶存潯鍗氬)"});
+     &lt;/script&gt;
+    &lt;script type="text/javascript" src="http://sjs.sinajs.cn/xblogtheme/js/blog680-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+        var slotArr = ['atcTitLi_SLOT_41', 'atcTitLi_SLOT_42','loginBarActivity','comm_SLOT_63','comm_SLOT_64','comm_SLOT_65']; //骞垮憡浣峣d
+        var sourceArr = ['SLOT_41','SLOT_42','SLOT_43,SLOT_47,SLOT_48','SLOT_63','SLOT_64','SLOT_65'];  //骞垮憡璧勬簮id
+        SinaBlog680.staticBox(slotArr, sourceArr);
+&lt;/script&gt;
+&lt;/html&gt;
+&gt;。</Message>
+          <StackTrace>   在 TestProject1.UtilityTest.GetHtml2Test() 位置 C:\Shenjian\RSS2KINDLE\TestProject1\UtilityTest.cs:行号 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

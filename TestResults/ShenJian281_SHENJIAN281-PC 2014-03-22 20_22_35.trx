@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f9fc8dff-d4b5-405e-b28f-536dd22edb72" name="ShenJian281@SHENJIAN281-PC 2014-03-22 20:22:35" runUser="ShenJian281-PC\ShenJian281" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="77859324-7827-4231-9957-8f778a946fc8">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment userDeploymentRoot="C:\Shenjian\RSS2KINDLE\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="ShenJian281_SHENJIAN281-PC 2014-03-22 20_22_35">
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\libs\SgmlReaderDll.dll" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\KVP_Config\bin\Debug\KVP_Config.dll" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\bin\Debug\RSS2KINDLE.exe" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\libs\QDFeedParser.dll" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\libs\HtmlAgilityPack.dll" />
+      <DeploymentItem filename="C:\Shenjian\RSS2KINDLE\libs\NReadability.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-03-22T20:22:35.4096128+08:00" queuing="2014-03-22T20:22:37.0997094+08:00" start="2014-03-22T20:22:37.2477179+08:00" finish="2014-03-22T20:24:01.8205552+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SHENJIAN281-PC" outcome="Error" timestamp="2014-03-22T20:24:01.8195551+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetSinaArticle" storage="c:\shenjian\rss2kindle\testproject1\bin\debug\testproject1.dll" id="9eb92ca5-b273-3255-0b8c-58212a96260d">
+      <Execution id="111de688-8c37-4e21-acd0-67aef4f73ea2" />
+      <TestMethod codeBase="C:/Shenjian/RSS2KINDLE/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UtilityTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSinaArticle" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9eb92ca5-b273-3255-0b8c-58212a96260d" executionId="111de688-8c37-4e21-acd0-67aef4f73ea2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="111de688-8c37-4e21-acd0-67aef4f73ea2" testId="9eb92ca5-b273-3255-0b8c-58212a96260d" testName="GetSinaArticle" computerName="SHENJIAN281-PC" duration="00:01:24.4378296" startTime="2014-03-22T20:22:37.3827256+08:00" endTime="2014-03-22T20:24:01.8205552+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="111de688-8c37-4e21-acd0-67aef4f73ea2">
+    </UnitTestResult>
+  </Results>
+</TestRun>
