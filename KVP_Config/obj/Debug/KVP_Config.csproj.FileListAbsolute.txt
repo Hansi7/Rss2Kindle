@@ -1,0 +1,23 @@
+c:\users\shenjian\documents\visual studio 2012\Projects\KVP_Config\obj\Debug\KVP_Config.csprojResolveAssemblyReference.cache
+c:\users\shenjian\documents\visual studio 2012\Projects\KVP_Config\bin\Debug\KVP_Config.dll
+c:\users\shenjian\documents\visual studio 2012\Projects\KVP_Config\bin\Debug\KVP_Config.pdb
+c:\users\shenjian\documents\visual studio 2012\Projects\KVP_Config\obj\Debug\KVP_Config.dll
+c:\users\shenjian\documents\visual studio 2012\Projects\KVP_Config\obj\Debug\KVP_Config.pdb
+c:\users\shenjian\documents\visual studio 2012\Projects\KVP_Config\bin\Debug\KVP_Config.XML
+c:\users\shenjian\documents\visual studio 2012\Projects\KVP_Config\obj\Debug\KVP_Config.Properties.Resources.resources
+c:\users\shenjian\documents\visual studio 2012\Projects\KVP_Config\obj\Debug\KVP_Config.csproj.GenerateResource.Cache
+D:\Users\Shenjian\Desktop\RssToMobi\RSS2KINDLE\KVP_Config\bin\Debug\KVP_Config.XML
+D:\Users\Shenjian\Desktop\RssToMobi\RSS2KINDLE\KVP_Config\bin\Debug\KVP_Config.dll
+D:\Users\Shenjian\Desktop\RssToMobi\RSS2KINDLE\KVP_Config\bin\Debug\KVP_Config.pdb
+D:\Users\Shenjian\Desktop\RssToMobi\RSS2KINDLE\KVP_Config\obj\Debug\KVP_Config.csprojResolveAssemblyReference.cache
+D:\Users\Shenjian\Desktop\RssToMobi\RSS2KINDLE\KVP_Config\obj\Debug\KVP_Config.Properties.Resources.resources
+D:\Users\Shenjian\Desktop\RssToMobi\RSS2KINDLE\KVP_Config\obj\Debug\KVP_Config.csproj.GenerateResource.Cache
+D:\Users\Shenjian\Desktop\RssToMobi\RSS2KINDLE\KVP_Config\obj\Debug\KVP_Config.dll
+D:\Users\Shenjian\Desktop\RssToMobi\RSS2KINDLE\KVP_Config\obj\Debug\KVP_Config.pdb
+C:\Shenjian\RSS2KINDLE\KVP_Config\bin\Debug\KVP_Config.dll
+C:\Shenjian\RSS2KINDLE\KVP_Config\bin\Debug\KVP_Config.pdb
+C:\Shenjian\RSS2KINDLE\KVP_Config\obj\Debug\KVP_Config.Properties.Resources.resources
+C:\Shenjian\RSS2KINDLE\KVP_Config\obj\Debug\KVP_Config.csproj.GenerateResource.Cache
+C:\Shenjian\RSS2KINDLE\KVP_Config\obj\Debug\KVP_Config.dll
+C:\Shenjian\RSS2KINDLE\KVP_Config\obj\Debug\KVP_Config.pdb
+C:\Shenjian\RSS2KINDLE\KVP_Config\obj\Debug\KVP_Config.csprojResolveAssemblyReference.cache

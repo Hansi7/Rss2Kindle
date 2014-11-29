@@ -1,0 +1,21 @@
+爱范儿=http://www.ifanr.com/feed
+PingWest中文网=http://www.pingwest.com/feed/
+虎嗅网=http://www.huxiu.com/rss/0.xml
+36氪=http://www.36kr.com/feed/
+月光博客=http://feed.williamlong.info/
+九点 文化=http://9.douban.com/rss/culture
+九点 生活=http://9.douban.com/rss/life
+九点 趣味=http://9.douban.com/rss/fun
+九点 科技=http://9.douban.com/rss/technology
+豆瓣最受欢迎的书评=http://book.douban.com/feed/review/book
+豆瓣最受欢迎的影评=http://movie.douban.com/feed/review/movie
+豆瓣: 经典短篇阅读=http://www.douban.com/feed/group/classicreading/discussion
+豆瓣最新的乐评=http://music.douban.com/feed/review/music_latest
+Engadget 中国版=http://cn.engadget.com/rss.xml
+驱动之家新闻=http://rss.mydrivers.com/rss.aspx?Tid=1
+一个=http://www.feed43.com/5463450442583311.xml
+知乎每日精选=http://www.zhihu.com/rss
+果壳=http://www.guokr.com/rss/
+时光网资讯=http://feed.mtime.com/news.rss
+南方周末=http://www.infzm.com/rss/home/rss2.0.xml
+伯乐在线=http://blog.jobbole.com/feed/

@@ -1,0 +1,36 @@
+<package xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata>
+    <dc:title>11/29 23:24 Created By RssToKindle</dc:title>
+    <dc:language>en-us</dc:language>
+    <dc:date>2014/11/29</dc:date>
+  </metadata>
+  <manifest>
+    <item id="item1" media-type="application/xhtml+xml" href="toc.html" />
+    <item id="item2" media-type="application/xhtml+xml" href="物理的距离不应该造成情感的疏远，我不在家小鱼在家 _ 36氪.html" />
+    <item id="item3" media-type="application/xhtml+xml" href="【独家】瞄准年轻人租房：继雷军投资“YOU_”后，“优客逸家”宣布B轮融资 2200万美元 _ 36氪.html" />
+    <item id="item4" media-type="application/xhtml+xml" href="Google在继续往Chrome OS上搬运Android应用 _ PingWest中文网.html" />
+    <item id="item5" media-type="application/xhtml+xml" href="去了富士康，才明白生产手机流程多复杂 _ PingWest中文网.html" />
+    <item id="item6" media-type="application/xhtml+xml" href="爱范儿 · Beats of Bits.html" />
+    <item id="item7" media-type="application/xhtml+xml" href="爱范儿 · Beats of Bits.html" />
+    <item id="item8" media-type="application/xhtml+xml" href="小米想成为世界第一？有希望，但有难度-观点-虎嗅网.html" />
+    <item id="item9" media-type="application/xhtml+xml" href="【雾霾天，宜观影】男票女票，虎嗅集齐电影四“张”召你来-看点-虎嗅网.html" />
+    <item id="item10" media-type="application/xhtml+xml" href="慢慢的，就没有了，就像从未存在过-月光博客.html" />
+    <item id="item11" media-type="application/xhtml+xml" href="微软中国跨境避税遭调查-月光博客.html" />
+  </manifest>
+  <spine>
+    <itemref idref="item1" />
+    <itemref idref="item2" />
+    <itemref idref="item3" />
+    <itemref idref="item4" />
+    <itemref idref="item5" />
+    <itemref idref="item6" />
+    <itemref idref="item7" />
+    <itemref idref="item8" />
+    <itemref idref="item9" />
+    <itemref idref="item10" />
+    <itemref idref="item11" />
+  </spine>
+  <guide>
+    <reference type="toc" title="able of Contents" href="toc.html" />
+  </guide>
+</package>
